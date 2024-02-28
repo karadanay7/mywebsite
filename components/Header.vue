@@ -2,7 +2,7 @@
   <UContainer
     class="w-full flex items-center justify-between border-b border-gray-200 dark:border-gray-600"
   >
-    <div>
+    <div class="w-1/3">
       <ULink to="/">
         <NuxtImg
           src="/logo.png"
@@ -13,7 +13,7 @@
         />
       </ULink>
     </div>
-    <div class="py-2">
+    <div class="py-2 w-1/3">
       <UButton @click="toggleMenu()" class="block md:hidden">
         <Icon
           :name="isMenuOpen ? 'pajamas:close' : 'pajamas:hamburger'"
@@ -22,7 +22,7 @@
       </UButton>
     </div>
 
-    <div class="hidden md:flex">
+    <div class="hidden md:flex w-1/3">
       <UHorizontalNavigation :links="horizontalLinks" />
       <div class="flex items-center justify-center gap-2">
         <UToggle
