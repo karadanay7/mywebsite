@@ -14,12 +14,12 @@
               <div
                 class="flex flex-col h-72 items-center justify-between overflow-hidden"
               >
-                <div class="w-full overflow-hidden h-1/2">
+                <div class="w-full overflow-hidden h-2/5">
                   <p>{{ article.description }}</p>
                 </div>
 
                 <!-- Add a wrapper div for centering -->
-                <div class="w-full h-1/2 self-center">
+                <div class="w-full h-3/5 self-center">
                   <Nuxt-img
                     :src="article.img"
                     alt="blogcontentimg"

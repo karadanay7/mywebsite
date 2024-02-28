@@ -2,7 +2,7 @@
 authorname: Aysegul Karadan
 
 title: "Using Vuelidate for Nuxt  "
-img: /img/supabase/supabase.png
+img: /img/vuelidate/1.png
 date: 28/02/2024
 description: "Learn how to streamline form validation in your Nuxt.js application using Vuelidate and Nuxt UI components. This guide walks you through the integration process step-by-step, ensuring data integrity and enhancing user experience effortlessly. "
 head:
@@ -18,6 +18,8 @@ head:
 
 In this guide, we'll walk through setting up Vuelidate for form validation in a Nuxt.js application using Nuxt UI components. Nuxt UI provides a set of UI components that integrate seamlessly with Nuxt.js, making it easier to build beautiful user interfaces. We'll also integrate Vuelidate for form validation to ensure data integrity and improve user experience.<br>
 <br>
+
+<div class="flex  items-center justify-center ">  <img src="/img/vuelidate/1.png" width="400"  class="rounded"></div>
 
 ## Setup Nuxt UI
 

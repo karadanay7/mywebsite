@@ -76,4 +76,5 @@ In order to publish this blog project I prepared with Nuxt 3, I went through man
 
 Once you complete the deployment, your GitHub Pages will look like this:
 
-<img src="/img/Nuxt3-Github-pages/Picture1.png" width="400" height="400">
+<div class="flex items-center justify-center"><img src="/img/Nuxt3-Github-pages/Picture1.png" width="350" height="300" class="rounded">
+</div>
