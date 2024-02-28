@@ -12,6 +12,8 @@ head:
 
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/failed-to-build-ios-app
 ---
 
 ### Failed to build iOS app Error (Xcode): Sandbox: rsync.samba(1885) deny(1) file-write-create

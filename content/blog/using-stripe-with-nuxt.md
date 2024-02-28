@@ -12,6 +12,8 @@ head:
 
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/using-stripe-with-nuxt
 ---
 
 # Using Stripe with Nuxt 3

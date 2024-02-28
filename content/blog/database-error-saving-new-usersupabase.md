@@ -12,6 +12,8 @@ head:
 
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/database-error-saving-new-usersupabase
 ---
 
 # Troubleshooting the "Database error saving new user" in Supabase

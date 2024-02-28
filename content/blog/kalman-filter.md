@@ -12,6 +12,8 @@ head:
 
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/kalman-filter
 ---
 
 <div class="py-4"><h1 class="text-2xl">Kalman Filter: An Introduction</h1>

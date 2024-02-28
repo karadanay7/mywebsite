@@ -7,9 +7,17 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "nuxt-particles",
     "@nuxt/content",
+    "@nuxtjs/sitemap",
   ],
   colorMode: {
     preference: "dark",
+  },
+  content: {
+    documentDriven: true,
+  },
+  site: {
+    url: "https://aysegulk.me",
+    trailingSlash: true,
   },
   css: ["~/assets/style.css"],
   app: {

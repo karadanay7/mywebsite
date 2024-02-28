@@ -10,6 +10,8 @@ head:
       content: "nuxt3, deploy, ghpages, nuxtjs"
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/deploy-nuxt-for-github-pages
 ---
 
 # Deploying a Nuxt3 project on GitHub Pages

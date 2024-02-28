@@ -12,6 +12,8 @@ head:
 
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/system-simulation
 ---
 
 <!-- Content of the page -->

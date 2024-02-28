@@ -12,6 +12,8 @@ head:
 
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/nuxt-content-module
 ---
 
 # Building a Dynamic Blog with Nuxt 3 Content Module: Listing Posts and Creating Individual Pages

@@ -12,6 +12,8 @@ head:
 
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/vuelidate-with-nuxt
 ---
 
 # Using Vuelidate with Nuxt UI in a Nuxt.js Application

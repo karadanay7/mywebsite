@@ -11,6 +11,8 @@ head:
       content: "nuxt tailwind, nuxt 3 tailwind, tailwind nuxt, add tailwind to nuxt, install tailwind nuxt, install tailwind nuxt 3, install tailwind to nuxt 3, install tailwind to nuxt, nuxt js tailwind, nuxt 3 add tailwind, nuxt 3 install tailwind, tailwindcss nuxt, tailwindcss nuxt3 , tailwindcss nuxtjs, tailwind css nuxt, tailwind css nuxt js, tailwind css nuxt 3"
     - name: "author"
       content: "Aysegul Karadan"
+sitemap:
+  loc: /blog/how-to-use-tailwind-with-nuxt
 ---
 
 ## Using Tailwind with Nuxt 3
