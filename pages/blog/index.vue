@@ -20,10 +20,10 @@
 
                 <!-- Add a wrapper div for centering -->
                 <div class="w-full h-1/2 self-center">
-                  <img
+                  <Nuxt-img
                     :src="article.img"
                     alt="blogcontentimg"
-                    sizes="100vw sm:50vw md:400px"
+                    sizes="100vw sm:50vw lg:100vw"
                     format="webp"
                     height="auto"
                     width="auto"
@@ -65,8 +65,9 @@
 useHead({
   meta: [
     {
-      name: "description",
-      content: "Welcome to my blog!  ",
+      name: "blog:description",
+      content:
+        "Welcome to my blog! , engineering content, developer content, developer blog, web developer blog, engineering blog, blog page, engineering blog page, web developer blog page ",
     },
   ],
 });

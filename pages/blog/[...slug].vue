@@ -33,3 +33,15 @@
   </main>
 </template>
 <style scoped></style>
+<script setup>
+const { path } = useRoute();
+
+const { data } = await useAsyncData(`content-${path}`, () => {
+  return queryContent().where({ _path: path }).findOne();
+});
+
+useHead({
+  title: data.value.title,
+  meta: data.value.head.meta,
+});
+</script>
