@@ -94,7 +94,7 @@ const verticalLinks = [
   [
     {
       label: "Home",
-      icon: "i-heroicons-home",
+
       to: "/",
     },
     {
