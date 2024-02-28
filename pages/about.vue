@@ -49,6 +49,7 @@
           >
             <UIcon
               name="i-uil-linkedin"
+              target="_blank"
               class="text-5xl hover:text-primary"
               dynamic
             />

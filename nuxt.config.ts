@@ -9,17 +9,18 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/sitemap",
   ],
+  css: ["~/assets/style.css"],
   colorMode: {
     preference: "dark",
   },
   content: {
-    documentDriven: true,
+    strictNuxtContentPaths: true,
   },
   site: {
     url: "https://aysegulk.me",
     trailingSlash: true,
   },
-  css: ["~/assets/style.css"],
+
   app: {
     head: {
       htmlAttrs: {

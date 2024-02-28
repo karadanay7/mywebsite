@@ -12,7 +12,7 @@
 useHead({
   meta: [
     {
-      name: "projectdescription",
+      name: "project:description",
       content:
         "Netflix clone, Netflix nuxt3 project, ,movie streaming,custom streaming platform, nuxt.js, web developer, nuxt web application",
     },
