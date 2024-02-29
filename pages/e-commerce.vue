@@ -14,7 +14,7 @@ useHead({
     {
       name: "projectdescription",
       content:
-        "Aliexpress clone, Aliexpress with nuxt, creating orders,creating address, prisma with nuxt, nuxt with stripe, nuxt with supabase, supabase with nuxt, nuxtjs, google auth with nuxt, nuxt web application",
+        "E-commerce website, E-commerce with nuxt, creating orders,creating address, prisma with nuxt, nuxt with stripe, nuxt with supabase, supabase with nuxt, nuxtjs, google auth with nuxt, nuxt web application",
     },
   ],
 });
