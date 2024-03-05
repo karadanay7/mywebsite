@@ -14,13 +14,6 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "dark",
   },
-  content: {
-    strictNuxtContentPaths: true,
-  },
-  site: {
-    url: "https://aysegulk.me",
-    trailingSlash: true,
-  },
 
   app: {
     head: {

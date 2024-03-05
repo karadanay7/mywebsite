@@ -9,6 +9,7 @@
         loading="lazy"
         alt="projectimage"
         sizes="100vw sm:50vw md:800px"
+        format="webp"
       />
     </div>
     <template #footer>
