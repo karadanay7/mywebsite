@@ -3,8 +3,13 @@
     <template #header>
       <h2 class="text-base sm:text-lg font-semibold text-center">{{ name }}</h2>
     </template>
-    <div class="h-80 overflow-hidden">
-      <img :src="image" class="w-full h-full object-contain" />
+    <div class="h-60 overflow-hidden">
+      <NuxtImg
+        :src="image"
+        loading="lazy"
+        alt="projectimage"
+        sizes="100vw sm:50vw md:800px"
+      />
     </div>
     <template #footer>
       <div class="flex items-center justify-center gap-4">

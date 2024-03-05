@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "nuxt-particles",
     "@nuxt/content",
     "@nuxtjs/sitemap",
+    "@nuxtjs/robots",
   ],
   css: ["~/assets/style.css"],
   colorMode: {
