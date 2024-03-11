@@ -162,7 +162,7 @@ if (process.client) {
 
 ### Customization Options
 
-You have full control over the appearance and behavior of the particles. Adjust parameters such as color, movement, interactivity, and more to suit your website's aesthetic. You can checkout documentation here [](https://nuxt-particles.joeypereira.dev/getting-started/setup)
+You have full control over the appearance and behavior of the particles. Adjust parameters such as color, movement, interactivity, and more to suit your website's aesthetic. You can checkout documentation here [Click here!](https://nuxt-particles.joeypereira.dev/getting-started/setup)
 
 ### Conclusion
 

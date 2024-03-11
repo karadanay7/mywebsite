@@ -203,6 +203,6 @@ By following these steps, you can seamlessly integrate Stripe with Nuxt 3 and cr
 
 <h3>If you need to see implementation of the code with example project you can visit my aliexpress-clone project here is the link  </h3>
 
-[Aliexpress-clone](https://github.com/karadanay7/aliexpress-clone)
-<https://github.com/karadanay7/aliexpress-clone>
+[Click here!](https://github.com/karadanay7/aliexpress-clone)
+
 Feel free to delve into the code and adapt it to your specific needs. Happy coding!
