@@ -12,7 +12,7 @@
 
             <ContentNavigation class="">
               <div
-                class="flex flex-col h-72 items-center justify-between overflow-hidden"
+                class="flex flex-col h-80 md:h-72 items-center justify-between overflow-hidden"
               >
                 <div class="w-full overflow-hidden h-2/5">
                   <p>{{ article.description }}</p>
