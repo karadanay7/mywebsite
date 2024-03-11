@@ -13,7 +13,7 @@ head:
     - name: "author"
       content: "Aysegul Karadan"
 sitemap:
-  loc: /blog/tsparticles-nuxt
+  loc: /blog/nuxt-particles
 ---
 
 # Elevate Your Nuxt.js Website with Dynamic Particle Backgrounds: A Step-by-Step Guide
