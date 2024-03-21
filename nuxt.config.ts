@@ -15,6 +15,9 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "dark",
   },
+    site: {
+    url: "https://aysegulk.me",
+  },
 
   app: {
     head: {
