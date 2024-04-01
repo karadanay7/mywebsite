@@ -11,11 +11,17 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
   ],
+  robots: {
+    UserAgent: "*",
+    Disallow: "",
+  },
   css: ["~/assets/style.css"],
   colorMode: {
     preference: "dark",
   },
-
+  site: {
+    url: "https://aysegulk.me",
+  },
   app: {
     head: {
       htmlAttrs: {
