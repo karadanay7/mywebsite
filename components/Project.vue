@@ -5,12 +5,16 @@
     </template>
     <div class="h-60 overflow-hidden">
       <NuxtImg
+        v-if="image"
+        ref="dynamicImageRef"
         :src="image"
-        loading="lazy"
-        alt="projectimage"
-        sizes="100vw sm:50vw md:800px"
         format="webp"
+        sizes="100vw sm:50vw md:800px"
+        loading="lazy"
       />
+      <template v-else>
+        <!-- Buraya skeleton loader -->
+      </template>
     </div>
     <template #footer>
       <div class="flex items-center justify-center gap-4">
@@ -28,6 +32,7 @@
         <UButton>
           <NuxtLink
             :to="githubUrl"
+            external
             target="_blank"
             class="btn btn-link flex items-center"
           >
@@ -40,6 +45,6 @@
     </template>
   </UCard>
 </template>
-<script setup>
+<script setup lang="ts">
 defineProps(["name", "image", "viewUrl", "githubUrl"]);
 </script>

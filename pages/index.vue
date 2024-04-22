@@ -26,6 +26,7 @@
         <div class="flex pt-8 items-start gap-6">
           <NuxtLink
             target="_blank"
+            external
             to="https://www.linkedin.com/in/aysegulkaradan/"
             alt="linkedin"
             aria-label="connect with linkedin"
@@ -38,6 +39,7 @@
           </NuxtLink>
           <NuxtLink
             target="_blank"
+            external
             to="mailto:karadan.ay7@gmail.com"
             alt="mailto"
             aria-label="connect with mail"
@@ -51,6 +53,7 @@
           <NuxtLink
             target="_blank"
             alt="github"
+            external
             to="https://github.com/karadanay7"
             aria-label="connect with github"
           >

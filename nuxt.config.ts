@@ -11,10 +11,7 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
   ],
-  robots: {
-    UserAgent: "*",
-    Disallow: "",
-  },
+
   css: ["~/assets/style.css"],
   colorMode: {
     preference: "dark",

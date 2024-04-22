@@ -6,8 +6,6 @@
         :image="project.image"
         :viewUrl="project.viewUrl"
         :githubUrl="project.githubUrl"
-        
-        
       />
     </div>
   </div>
