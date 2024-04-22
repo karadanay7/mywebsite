@@ -9,7 +9,7 @@
         :src="image"
         alt="projectimg"
         format="webp"
-        sizes="100vw  lg:800px"
+        sizes="100vw  lg:600px"
         loading="lazy"
       />
       <template v-else>
