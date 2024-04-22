@@ -3,7 +3,7 @@
     <template #header>
       <h2 class="text-base sm:text-lg font-semibold text-center">{{ name }}</h2>
     </template>
-    <div class="h-60 overflow-hidden">
+    <div class="flex flex-col h-80 overflow-hidden justify-center items-center">
       <NuxtImg
         v-if="image"
         :src="image"
@@ -11,6 +11,7 @@
         format="webp"
         sizes="100vw  lg:600px"
         loading="lazy"
+        class="h-full w-full object-cover"
       />
       <template v-else>
         <!-- Buraya skeleton loader -->
