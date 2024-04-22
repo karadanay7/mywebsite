@@ -18,7 +18,6 @@ export default defineNuxtConfig({
   },
   site: {
     url: "https://aysegulk.me",
-    trailingSlash: true,
   },
   app: {
     head: {
