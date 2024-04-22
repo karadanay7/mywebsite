@@ -6,10 +6,10 @@
     <div class="h-60 overflow-hidden">
       <NuxtImg
         v-if="image"
-        ref="dynamicImageRef"
         :src="image"
+        alt="projectimg"
         format="webp"
-        sizes="100vw sm:50vw md:800px"
+        sizes="100vw  lg:800px"
         loading="lazy"
       />
       <template v-else>
@@ -18,8 +18,9 @@
     </div>
     <template #footer>
       <div class="flex items-center justify-center gap-4">
-        <UButton>
+        <UButton aria-label="viewButton">
           <NuxtLink
+            aria-label="View project page"
             :to="viewUrl"
             target="_blank"
             class="btn btn-view flex items-center"
@@ -29,9 +30,10 @@
             ></NuxtLink
           ></UButton
         >
-        <UButton>
+        <UButton aria-label="githubButton">
           <NuxtLink
             :to="githubUrl"
+            aria-label="githubUrl"
             external
             target="_blank"
             class="btn btn-link flex items-center"

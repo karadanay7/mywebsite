@@ -14,7 +14,11 @@
       </ULink>
     </div>
     <div class="py-2 w-1/3">
-      <UButton @click="toggleMenu()" class="block md:hidden">
+      <UButton
+        @click="toggleMenu()"
+        class="block md:hidden"
+        aria-label="hamburgerButton"
+      >
         <Icon
           :name="isMenuOpen ? 'pajamas:close' : 'pajamas:hamburger'"
           class="w-4 h-4 text-gray-300 dark:text-gray-900"
@@ -48,6 +52,7 @@
         on-icon="i-heroicons-sun"
         off-icon="i-heroicons-moon"
         size="lg"
+        aria-label="toggleButton"
       />
     </div>
   </UContainer>

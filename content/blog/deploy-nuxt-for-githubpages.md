@@ -1,7 +1,7 @@
 ---
 authorname: Aysegul Karadan
 title: "Deploying a Nuxt3 project on GitHub Pages"
-img: /img/Nuxt3-Github-pages/Picture1.png
+img: /img/Nuxt3-Github-pages/Picture1.jpeg
 date: 21/03/2023
 description: "Learn How to deploy a Nuxt3 project for gh-pages step by step guide."
 head:
@@ -78,5 +78,5 @@ In order to publish this blog project I prepared with Nuxt 3, I went through man
 
 Once you complete the deployment, your GitHub Pages will look like this:
 
-<div class="flex items-center justify-center"><img src="/img/Nuxt3-Github-pages/Picture1.png" width="350" height="300" class="rounded">
+<div class="flex items-center justify-center"><img src="/img/Nuxt3-Github-pages/Picture1.jpeg" width="350" height="300" class="rounded">
 </div>

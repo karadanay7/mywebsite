@@ -1,55 +1,49 @@
 <template>
-  <UContainer class="">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 p-8">
+  <UContainer>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 p-8">
       <ContentList path="/blog">
         <template #default="{ list }">
-          <UCard v-for="article in list" :key="article._path" class="">
+          <UCard v-for="article in list" :key="article._path">
             <template #header>
-              <h1 class="text-lg text-center">
-                {{ article.title }}
-              </h1>
+              <h1 class="text-lg text-center">{{ article.title }}</h1>
             </template>
 
-            <ContentNavigation class="">
-              <div
-                class="flex flex-col h-80 md:h-72 items-center justify-between overflow-hidden"
-              >
-                <div class="w-full overflow-hidden h-2/5">
-                  <p>{{ article.description }}</p>
-                </div>
-
-                <!-- Add a wrapper div for centering -->
-                <div class="w-full h-3/5 self-center">
-                  <Nuxt-img
+            <ContentNavigation>
+              <div class="flex flex-col h-80 overflow-hidden">
+                <p class="pb-4">{{ article.description }}</p>
+                <div
+                  class="flex justify-center items-center h-full w-full overflow-hidden"
+                >
+                  <NuxtImg
                     :src="article.img"
                     alt="blogcontentimg"
-                    sizes="100vw sm:50vw lg:100vw"
+                    sizes="500px  lg:600px"
                     format="webp"
-                    height="auto"
-                    width="auto"
-                    class="w-full h-full object-cover rounded-lg"
+                    class="w-full"
+                    quality="50"
                   />
                 </div>
               </div>
-              <!-- Apply mx-auto class for center alignment -->
             </ContentNavigation>
 
             <template #footer>
-              <p class="text-sm">
-                {{ article.authorname }}
-              </p>
-              <div class="flex items-center justify-between">
-                <time datetime="2020-03-16">{{ article.date }}</time>
-                <NuxtLink
-                  :to="article._path"
-                  class="hover:text-primary hover:scale-110"
-                >
-                  Go to Read
-                  <UIcon
-                    name="i-heroicons-arrow-right"
-                    class="mb-1 animate-pulse"
-                  />
-                </NuxtLink>
+              <div class="flex flex-cols-2 justify-between">
+                <div class="flex flex-col items-center justify-center">
+                  <p class="text-sm">{{ article.authorname }}</p>
+                  <time datetime="2020-03-16">{{ article.date }}</time>
+                </div>
+                <div class="flex items-center justify-center">
+                  <NuxtLink
+                    :to="article._path"
+                    class="hover:text-primary hover:scale-110"
+                  >
+                    Go to Read
+                    <UIcon
+                      name="i-heroicons-arrow-right"
+                      class="mb-1 animate-pulse"
+                    />
+                  </NuxtLink>
+                </div>
               </div>
             </template>
           </UCard>
@@ -61,6 +55,7 @@
     </div>
   </UContainer>
 </template>
+
 <script setup lang="ts">
 useHead({
   meta: [
@@ -72,4 +67,5 @@ useHead({
   ],
 });
 </script>
+
 <style scoped></style>
