@@ -9,7 +9,7 @@
         :src="image"
         alt="projectimg"
         format="webp"
-        sizes="100vw  lg:600px"
+        sizes="100vw  lg:100vw"
         loading="lazy"
         class="h-full w-full object-cover"
       />
