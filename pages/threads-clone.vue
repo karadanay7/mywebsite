@@ -17,6 +17,11 @@ useHead({
       content:
         "Threads clone, threads-clone,prisma with nuxt, posting threads, supabase with nuxt, nuxtjs, google auth with nuxt, nuxt web application",
     },
+    {
+        name: "robots",
+        content:" index, follow"
+      },
+    
   ],
 });
 </script>

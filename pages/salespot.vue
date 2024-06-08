@@ -16,6 +16,10 @@ useHead({
       content:
         "Sale app, Web app nuxt3 project, ,sale app nuxt.js,nuxt.js project example, nuxt.js, web developer, nuxt web application",
     },
+    {
+        name: "robots",
+        content:" index, follow"
+      },
   ],
 });
 </script>

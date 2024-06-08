@@ -16,6 +16,10 @@ useHead({
       content:
         "Netflix clone, Netflix nuxt3 project, ,movie streaming,custom streaming platform, nuxt.js, web developer, nuxt web application",
     },
+    {
+        name: "robots",
+        content:" index, follow"
+      },
   ],
 });
 </script>

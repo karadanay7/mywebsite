@@ -16,6 +16,10 @@ useHead({
       content:
         "E-commerce website, E-commerce with nuxt, creating orders,creating address, prisma with nuxt, nuxt with stripe, nuxt with supabase, supabase with nuxt, nuxtjs, google auth with nuxt, nuxt web application",
     },
+    {
+        name: "robots",
+        content:" index, follow"
+      },
   ],
 });
 </script>

@@ -9,6 +9,20 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useHead({
+  meta: [
+    {
+      name: "about",
+      content:
+        "Nuxt.js project, Nuxt.js project example, Nuxt.js, web developer, nuxt web application,amazon clone, netflix clone, sale app, nuxt.js project example, nuxt.js, web developer, nuxt web application",
+    },
+    {
+        name: "robots",
+        content:" index, follow"
+      },
+  ],
+});
+</script>
 
 <style scoped></style>

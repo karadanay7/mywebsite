@@ -64,6 +64,10 @@ useHead({
       content:
         "Welcome to my blog! , engineering content, developer content, developer blog, web developer blog, engineering blog, blog page, engineering blog page, web developer blog page ",
     },
+    {
+        name: "robots",
+        content:" index, follow"
+      },
   ],
 });
 </script>
