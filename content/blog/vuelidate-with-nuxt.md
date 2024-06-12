@@ -240,6 +240,3 @@ watch(form, validateWithVuelidate, { deep: true });
 
 By following these steps, you can integrate Vuelidate with Nuxt UI in your Nuxt.js application for robust form validation.
 
-```
-
-```

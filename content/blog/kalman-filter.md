@@ -16,46 +16,52 @@ sitemap:
   loc: /blog/kalman-filter
 ---
 
-<div class="py-4"><h1 class="text-2xl">Kalman Filter: An Introduction</h1>
+## Kalman Filter: An Introduction
 
 Kalman Filter is a widely used algorithm for estimating the state of a system based on noisy observations. It was developed by Rudolf E. Kálmán in the early 1960s and has since found numerous applications in various fields such as engineering, robotics, finance, and more. In this blog post, we will discuss the basics of Kalman Filter, including its history, principles, and applications.</div>
+## What is Kalman Filter?
 
-<div class="py-4"><h2 class=text-2xl> What is Kalman Filter?</h2>
+Kalman Filter is a recursive algorithm that estimates the state of a system over time based on a sequence of observations that are corrupted by noise. It uses a mathematical model of the system dynamics and measurements to estimate the true state of the system. The basic idea behind Kalman Filter is to use the available data to infer the state of the system and to update this estimate as new data becomes available.
 
-Kalman Filter is a recursive algorithm that estimates the state of a system over time based on a sequence of observations that are corrupted by noise. It uses a mathematical model of the system dynamics and measurements to estimate the true state of the system. The basic idea behind Kalman Filter is to use the available data to infer the state of the system and to update this estimate as new data becomes available.</div>
+## History of Kalman Filter
 
-<div class="py-4"><h1 class="text-2xl">History of Kalman Filter</h1>
 
-The development of Kalman Filter was motivated by the need to solve a problem in control theory known as the linear quadratic regulator (LQR) problem. The LQR problem involves finding a control policy that minimizes a quadratic cost function while ensuring that the system remains stable. Rudolf E. Kálmán, a Hungarian-American mathematician and electrical engineer, proposed a solution to this problem in 1960 using a recursive algorithm that estimated the state of the system based on noisy measurements.</div>
+The development of Kalman Filter was motivated by the need to solve a problem in control theory known as the linear quadratic regulator (LQR) problem. The LQR problem involves finding a control policy that minimizes a quadratic cost function while ensuring that the system remains stable. Rudolf E. Kálmán, a Hungarian-American mathematician and electrical engineer, proposed a solution to this problem in 1960 using a recursive algorithm that estimated the state of the system based on noisy measurements.
 
-<div class="py-4"><h1 class=text-2xl>How does Kalman Filter work?</h1>
-Kalman Filter works by maintaining a probabilistic estimate of the state of the system over time. This estimate is represented as a Gaussian distribution with mean and covariance, which are updated recursively based on the new observations. The state of the system is assumed to follow a linear dynamic model with Gaussian noise, and the observations are assumed to be linearly related to the state with Gaussian noise. The Kalman Filter updates the estimate of the state based on a two-step process: prediction and update.</div>
-<div class="py-4">
-<h1 class=text-2xl>Prediction step</h1>In the prediction step, the Kalman Filter uses the current estimate of the state and the state transition model to predict the state of the system at the next time step. The predicted state is represented as a Gaussian distribution with mean and covariance, which are computed using the following equations:</br>
+## How does Kalman Filter work?
+
+Kalman Filter works by maintaining a probabilistic estimate of the state of the system over time. This estimate is represented as a Gaussian distribution with mean and covariance, which are updated recursively based on the new observations. The state of the system is assumed to follow a linear dynamic model with Gaussian noise, and the observations are assumed to be linearly related to the state with Gaussian noise. The Kalman Filter updates the estimate of the state based on a two-step process: prediction and update.
+
+### Prediction step :
+ In the prediction step, the Kalman Filter uses the current estimate of the state and the state transition model to predict the state of the system at the next time step. The predicted state is represented as a Gaussian distribution with mean and covariance, which are computed using the following equations:
 x̂_k|k-1 = F_k x̂_k-1|k-1 + B_k u_k + w_k
 P_k|k-1 = F_k P_k-1|k-1 F_k^T + Q_k
 
-where: </br>
+where: 
 
-x̂_k|k-1 is the predicted state of the system at time k given the observations up to time k-1.</br>
-F_k is the state transition matrix that describes how the state evolves over time.</br>
-B_k is the control input matrix that describes how the control input affects the state.</br>
-u_k is the control input at time k.</br>
-w_k is the process noise, which is assumed to be Gaussian with mean 0 and covariance Q_k.</br>
+x̂_k|k-1 is the predicted state of the system at time k given the observations up to time k-1.
+
+F_k is the state transition matrix that describes how the state evolves over time.
+
+B_k is the control input matrix that describes how the control input affects the state.
+
+u_k is the control input at time k.
+
+w_k is the process noise, which is assumed to be Gaussian with mean 0 and covariance Q_k.
 
 P_k|k-1 is the predicted covariance of the state estimate at time k.
 In the update step, the Kalman Filter uses the predicted state and the observation model to update the state estimate based on the new observation. The updated state is represented as a Gaussian distribution with mean and covariance, which are computed using the following equations:</br></div>
 
-<div class="py-4">
-<h1 class=text-2xl>MATLAB CODE FOR KALMAN FILTER</h1>
+
+## MATLAB CODE FOR KALMAN FILTER
 
 ![Alt text](/img/kalman/Kalman.png)
 
-<h1 class=text-2xl>Here is the solution of the movement of an object with a constant acceleration by using Matlab</h1>
+## Here is the solution of the movement of an object with a constant acceleration by using Matlab
 
 Let the position of a vehicle be measured at 5 feet (with a standard deviation) acceleration of 3 feet/sec2 and a measurement noise of 0.1 feet/sec2 (a standard deviation). Since the position is measured every 5 seconds, let's try to estimate the position of this vehicle in the best way with the Kalman filter in 20 sec duration.
 
----
+
 
 ```matlab
 clc
@@ -165,7 +171,7 @@ legend('True Position', 'Measured Position', 'Estimated Position')
 
 ```
 
----</div>
+
 
 ### References
 

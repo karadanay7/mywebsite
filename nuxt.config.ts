@@ -12,7 +12,10 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
   ],
 
-  css: ["~/assets/style.css"],
+  tailwindcss: {
+    cssPath: '~/assets/style.css',
+  },
+
   colorMode: {
     preference: "dark",
   },

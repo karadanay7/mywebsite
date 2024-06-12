@@ -4,19 +4,10 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
-        violet: {
-          50: "#EFFDF5",
-          100: "#D9FBE8",
-          200: "#B3F5D1",
-          300: "#75EDAE",
-          400: "#00DC82",
-          500: "#00C16A",
-          600: "#00A155",
-          700: "#007F45",
-          800: "#016538",
-          900: "#0A5331",
-          950: "#052e16",
-        },
+        'gray-dark': '#273444',
+        'gray': '#8492a6',
+        'gray-light': '#d3dce6',
+        'blue-dark': '#1e3a8a',
       },
     },
   },

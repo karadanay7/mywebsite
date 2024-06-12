@@ -17,13 +17,14 @@ sitemap:
 
 ## Using Tailwind with Nuxt 3
 
-Discover the perfect harmony of style and efficiency with our latest blog post on "Using Tailwind with Nuxt 3." This step-by-step guide walks you through the seamless integration of Tailwind CSS, a utility-first framework, with Nuxt 3, a powerful Vue.js framework. Learn how to enhance your blog or project with organized and modular styles, ensuring a visually captivating and responsive user interface. Follow along to unlock the full potential of Tailwind CSS and Nuxt 3, empowering your development journey.<br>
-<br>
+<p>Discover the perfect harmony of style and efficiency with our latest blog post on "Using Tailwind with Nuxt 3." This step-by-step guide walks you through the seamless integration of Tailwind CSS, a utility-first framework, with Nuxt 3, a powerful Vue.js framework. Learn how to enhance your blog or project with organized and modular styles, ensuring a visually captivating and responsive user interface. Follow along to unlock the full potential of Tailwind CSS and Nuxt 3, empowering your development journey.</p>
+
 
 ## Introduction
 
-Tailwind CSS, a utility-first CSS framework, combined with Nuxt 3, a powerful framework for building Vue.js applications, offers an excellent solution for styling your blog. This tutorial will guide you through the steps of integrating Tailwind CSS with Nuxt 3, enhancing the styling of your blog.<br>
-<br>
+<p>Tailwind CSS, a utility-first CSS framework, combined with Nuxt 3, a powerful framework for building Vue.js applications, offers an excellent solution for styling your blog. This tutorial will guide you through the steps of integrating Tailwind CSS with Nuxt 3, enhancing the styling of your blog.</p>
+
+
 
 ### Step 1: Installation
 
@@ -52,7 +53,7 @@ export default defineNuxtConfig({
 ```
 
 This informs Nuxt 3 to utilize the Tailwind CSS module.<br>
-<br>
+
 
 ### Step 3: Create Tailwind CSS File
 
@@ -64,7 +65,7 @@ Create a tailwind.config.js file at the root of your project, or in the tailwind
 @tailwind utilities;
 ```
 
-Feel free to import additional styles or fonts as needed. You can import google fonts etc.<br>
+Feel free to import additional styles or fonts as needed. You can import google fonts etc.
 
 ### Step 4: Options
 
@@ -95,6 +96,7 @@ module.exports = {
     "./app.vue",
   ],
 };
+
 ```
 
 <br>

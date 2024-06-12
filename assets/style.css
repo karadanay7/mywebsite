@@ -5,18 +5,44 @@
 @layer base {
   h1 {
     @apply text-3xl;
+    padding: 8px 0px;
   }
   h2 {
     @apply text-2xl;
+    padding: 8px 0px;
   }
   h3 {
     @apply text-xl;
+    padding: 8px 0px;
   }
   ol {
     @apply list-decimal;
+    padding: 8px 0px;
   }
   li {
     @apply list-inside;
+    padding: 8px 0px;
   }
+  p{
+   line-height: 2;
+   padding: 8px 0px;
+  }
+  pre {
+    overflow-x: auto;
+    background-color: theme('colors.gray-dark', currentColor);
+    border-radius: 0.5rem;
+    padding: 8px;
+    
+}
+
+code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: rgb(231, 233, 233);
+  
+}
+link {
+  text-decoration: underline;
+}
   /* ... */
 }

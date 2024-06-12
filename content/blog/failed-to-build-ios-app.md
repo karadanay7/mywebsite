@@ -24,7 +24,9 @@ sitemap:
 
 ### Could not build the application for the simulator. Error launching application on iOS device.
 
-<img src="/img/flutter-error/flutter.png" width="800" height="400" /><br>
+
+<div class="flex items-center justify-center"><img src="/img/flutter-error/flutter.png"  class="rounded w-full">
+</div>
 
 If you're a Flutter developer building an iOS application and you've encountered the following error messages in Xcode:
 
@@ -33,12 +35,12 @@ Error (Xcode): Sandbox: dart(1863) deny(1) file-write-create
 Error (Xcode): Flutter failed to write to a file at
 Could not build the application for the simulator. Error launching application on iPhone 15 Pro.
 You're not alone. This error can be frustrating, but there is a simple solution. In this blog post, we'll guide you through the process of fixing this error.<br>
-<br>
+
 
 ## The Error Explained
 
-The error messages suggest that there's a problem with file-write permissions during the Flutter iOS build process. This is a common issue, but it can be resolved with a straightforward solution. <br>
-<br>
+The error messages suggest that there's a problem with file-write permissions during the Flutter iOS build process. This is a common issue, but it can be resolved with a straightforward solution. 
+
 
 ## The Solution
 
@@ -56,13 +58,13 @@ To fix this issue, you can follow these steps:
 
 6-You'll find an option named "User Script Sandboxing." Change the value from 'Yes' to 'No.'
 
-7-Save your changes.<br>
-<br>
+7-Save your changes.
+
 
 ## Why This Works
 
 This issue is related to the security settings for scripts during the build process. Changing the "User Script Sandboxing" option to 'No' disables the sandboxing for user scripts, allowing Flutter to write the necessary files without encountering permission issues.<br>
-<br>
+
 
 ## Conclusion
 

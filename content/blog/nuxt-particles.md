@@ -18,10 +18,10 @@ sitemap:
 
 # Elevate Your Nuxt.js Website with Dynamic Particle Backgrounds: A Step-by-Step Guide
 
-<br/>
+
 
 Are you looking to add an eye-catching element to your Nuxt.js website? Look no further! In this post, we'll walk you through the process of integrating dynamic particle backgrounds using tsparticles with Nuxt.js.<br/>
-<br/>
+
 
 ## Step 1: Installation
 
