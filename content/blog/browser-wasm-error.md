@@ -105,9 +105,10 @@ ol class="list-disc">
 Proper management of project references and dependencies is crucial for maintaining a functional multi-project setup, particularly when working with WebAssembly in .NET. By ensuring that projects reference appropriate packages and isolating incompatible dependencies, you can avoid runtime pack errors and streamline your development process.
 
 ### Error Details:
-
+```
 Error Code: NETSDK1082
 Error Message: /usr/local/share/dotnet/sdk/8.0.301/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.FrameworkReferenceResolution.targets(491,5): error NETSDK1082: There was no runtime pack for Microsoft.AspNetCore.App available for the specified RuntimeIdentifier 'browser-wasm'.
+```
 
 Thanks a ton, 
 @[Alper Tunga](https://medium.com/@altudev)
