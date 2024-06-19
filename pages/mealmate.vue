@@ -10,7 +10,13 @@
   </template>
   <script setup lang="ts">
   useHead({
+    title: "MealMate - Personalized AI Meal Planning App ",
+   
     meta: [
+      {
+        name: "description",
+        content: " Personalized meal planning app powered by OpenAI.  Built with .NET 8, C#, Blazor, TailwindCSS, and DaisyUI.",
+      },
       {
         name: "project-description",
         content:"Personalized meal planning app powered by OpenAI. Tailor your meal preferences, activity level, health issues, goals, weight, height, age, and gender for customized 7-day meal plans. Built with .NET 8, C#, Blazor, TailwindCSS, and DaisyUI."

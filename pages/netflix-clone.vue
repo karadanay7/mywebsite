@@ -10,11 +10,16 @@
 </template>
 <script setup lang="ts">
 useHead({
+  title: "Netflix Clone built with Vue.js, pinia store and Tailwind CSS",
   meta: [
+  {
+      name: "description",
+      content: " Netflix Clone built with Vue.js, pinia store and Tailwind CSS, Vue.js, web developer, vue.js web application",
+    },
     {
       name: "project:description",
       content:
-        "Netflix clone, Netflix nuxt3 project, ,movie streaming,custom streaming platform, nuxt.js, web developer, nuxt web application",
+        "Netflix clone, Netflix vue.js project, ,movie streaming,custom streaming platform, vue.js, web developer, vue.js web application",
     },
     {
         name: "robots",

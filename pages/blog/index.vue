@@ -58,7 +58,12 @@
 
 <script setup lang="ts">
 useHead({
+  title: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
   meta: [
+  {
+      name: "description",
+      content: "Welcome to my blog! I write about web development, software engineering, engineering, and more.",
+    },
     {
       name: "blog:description",
       content:

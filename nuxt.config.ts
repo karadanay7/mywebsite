@@ -47,11 +47,7 @@ export default defineNuxtConfig({
       title: "Aysegul Karadan - Web Developer",
 
       meta: [
-        {
-          name: "description",
-          content:
-            "Aysegul Karadan - Full-Stack Web Developer | Nuxt.js, Vue.js, HTML5, CSS, JavaScript, Tailwind, Bootstrap, EcmaScript, Pinia, Flutter, Supabase ",
-        },
+       
         {
           name: "google-site-verification",
           content: "sU5URavUHAVc-UpIThT55t6Zp-byECJN_U9MyTdcgL8",

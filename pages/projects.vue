@@ -12,7 +12,12 @@
 </template>
 <script setup lang="ts">
 useHead({
+  title: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
   meta: [
+  {
+      name: "description",
+      content: "Welcome to my projects page. Here you can find my projects that I have developed using Nuxt.js, .Net 8, C#, Blazor, OpenAI, and more.",
+    },
     {
       name: "projects",
       content:
@@ -62,7 +67,7 @@ const projectsList = [
   },
   {
     id: 6,
-    name: "Netflix Clone TV - Nuxt.js",
+    name: "Netflix Clone TV - Vue.js",
     image: "/netflix-clone.png",
     viewUrl: "/netflix-clone", // Assuming internal route
     githubUrl: "https://github.com/karadanay7/netflix-clone-for-tv",

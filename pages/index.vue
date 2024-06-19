@@ -7,19 +7,18 @@
       class="w-full lg:basis-1/2 flex flex-col gap-5 justify-center p-8 lg:p-4"
     >
       <div
-        class="flex flex-col items-start justify-center pt-0 lg:pt-32 gap-5 lg:pl-12"
+        class="flex flex-col items-start justify-center pt-0 lg:pt-24 gap-5 lg:pl-12"
       >
         <h2 class="text-lg md:text-xl lg:text-2xl">Aysegul Karadan</h2>
         <h1 class="text-3xl md:text-4xl lg:text-6xl">
-          Web Developer & Industrial Engineer
+          Web Developer & Industrial Engineer 
         </h1>
 
         <p>
-          I'm Ayşegül Karadan, a Full-Stack Developer with a passion for
+          I'm a Full-Stack Developer with a passion for
           crafting captivating digital experiences. With a background in
           industrial engineering and specialization in frontend technologies
-          like Vue.js and Nuxt.js, I merge creativity with code to optimize user
-          interfaces and deliver innovative solutions. Let's collaborate and
+          like Vue.js and Nuxt.js. Let's collaborate and
           shape remarkable web experiences together!
         </p>
         <UButton><NuxtLink to="/projects">See Projects</NuxtLink></UButton>
@@ -112,7 +111,7 @@ const options = {
       enable: true,
     },
     number: {
-      value: 200,
+      value: 100,
     },
   },
 };
@@ -122,7 +121,7 @@ const onLoad = (container: Container) => {
 };
 const updateParticleNumber = () => {
   if (process.client) {
-    const particleNumber = window.innerWidth < 640 ? 50 : 200; // Adjust the threshold and values as needed
+    const particleNumber = window.innerWidth < 640 ? 50 : 100; // Adjust the threshold and values as needed
     options.particles.number.value = particleNumber;
   }
 };
@@ -134,13 +133,19 @@ if (process.client) {
   // Initial call to set the particle number based on the initial screen size
   updateParticleNumber();
 }
+
 useHead({
+  title: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
   meta: [
+  {
+      name: "description",
+      content: "Full-Stack Developer with a passion for crafting captivating digital experiences. Specialization in frontend technologies like Vue.js and Nuxt.js. ",
+    },
     {
       name: "index:description",
-      content: "Welcome to my website! ",
+      content: "Welcome to my website! ", 
     },
-    // You can add more meta tags as needed, for example:
+    
     {
       name: "keywords",
       content:

@@ -10,7 +10,12 @@
 </template>
 <script setup lang="ts">
 useHead({
+  title: "E-commerce website built with Nuxt.js, Prisma, Supabase, Stripe, Tailwind CSS",
   meta: [
+  {
+        name: "description",
+        content: " E-commerce website built with Nuxt.js, Prisma, Supabase, Stripe, Tailwind CSS, Nuxt.js, web developer, nuxt web application",
+      },
     {
       name: "projectdescription",
       content:

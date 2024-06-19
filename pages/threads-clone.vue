@@ -11,9 +11,15 @@
 
 <script setup lang="ts">
 useHead({
+  title: "Threads Clone built with Nuxt.js, Prisma, Supabase, Tailwind CSS, Pinia",
   meta: [
+  {
+      name: "description",
+      content:
+        "Threads Clone built with Nuxt.js, Prisma, Supabase, Tailwind CSS, Pinia, Nuxt.js, web developer, nuxt web application",
+    },
     {
-      name: "projectdescription",
+      name: "project:description",
       content:
         "Threads clone, threads-clone,prisma with nuxt, posting threads, supabase with nuxt, nuxtjs, google auth with nuxt, nuxt web application",
     },

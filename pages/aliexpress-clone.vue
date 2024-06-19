@@ -10,7 +10,12 @@
 </template>
 <script setup lang="ts">
 useHead({
+  title: "Aliexpress Clone built with Nuxt.js, Prisma, Supabase, Stripe, Tailwind CSS",
   meta: [
+  {
+        name: "description",
+        content: " Aliexpress Clone built with Nuxt.js, Prisma, Supabase, Stripe, Tailwind CSS, Nuxt.js, web developer, nuxt web application",
+      },
     {
       name: "projectdescription",
       content:

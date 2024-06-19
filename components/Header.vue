@@ -16,7 +16,7 @@
     <div class="py-2 w-1/3">
       <UButton
         @click="toggleMenu()"
-        class="block md:hidden"
+        class="block lg:hidden"
         aria-label="hamburgerButton"
       >
         <Icon
@@ -26,7 +26,7 @@
       </UButton>
     </div>
 
-    <div class="hidden md:flex w-1/3">
+    <div class="hidden lg:flex w-1/3">
       <UHorizontalNavigation :links="horizontalLinks" />
       <div class="flex items-center justify-center gap-2">
         <UToggle
@@ -40,13 +40,13 @@
 
     <div
       v-if="isMenuOpen"
-      class="flex flex-col md:hidden top-11 absolute z-10 mx-auto left-0 right-0 border rounded-lg text-start bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-600 justify-center py-2 items-center"
+      class="flex flex-col lg:hidden top-11 absolute z-10 mx-auto left-0 right-0 border rounded-lg text-start bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-600 justify-center py-2 items-center"
     >
       <div class="absolute top-0 w-full flex justify-end items-center"></div>
 
       <UVerticalNavigation :links="verticalLinks" />
     </div>
-    <div class="flex md:hidden items-center justify-center gap-2">
+    <div class="flex lg:hidden items-center justify-center gap-2">
       <UToggle
         v-model="isDark"
         on-icon="i-heroicons-sun"

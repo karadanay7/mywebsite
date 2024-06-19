@@ -10,7 +10,13 @@
 </template>
 <script setup lang="ts">
 useHead({
+  title: "An example of Happy Hour App built with Nuxt.js",
   meta: [
+  {
+      name: "description",
+      content: "An example of Happy Hour App, built with Nuxt.js,Node.js Tailwind CSS, Supabase, Prisma, Nuxt-UI , Vuelidate and more.",
+    },
+ 
     {
       name: "project:description",
       content:
