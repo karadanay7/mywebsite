@@ -10,10 +10,17 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
+    
   ],
+ 
 
   tailwindcss: {
     cssPath: '~/assets/style.css',
+  },
+  robots: {
+    UserAgent: '*',
+    Disallow: '',
+    Sitemap: 'https://www.aysegulk.me/sitemap.xml',
   },
 
   colorMode: {
@@ -83,6 +90,11 @@ export default defineNuxtConfig({
             "Aysegul Karadan - Full-Stack Web Developer | Nuxt.js, Vue.js",
         },
         {
+          name: "og:url",
+          content:
+            "www.aysegulk.me",
+        },
+        {
           name: "og:description",
           content:
             "Explore the portfolio of Aysegul Karadan, an experienced full-stack web developer specializing in Nuxt.js and Vue.js. Delivering high-quality web solutions with clean and efficient code.",
@@ -112,7 +124,7 @@ export default defineNuxtConfig({
             "portfolio project, portfolio example code, mutliple portfolio code, multiple portfolio example, slideshow project code, infinity scroll project code, netflix clone nuxt3 project, aliexpress clone nuxt3 project, threads clone nuxt3 project, tailor website, tailor website nuxt3 project example, css animations, sewing animation, hamburger menu project code, dark mode light mode example with code, subscription page code example, quote generator example code, nuxt3 project example, nuxt3 application example",
         },
         {
-          name: "3Dprojects",
+          name: "3D-projects",
           content:
             "3D websites, 3D models, 3D website , 3D design, 3D designing, 3D website, 3D apps, 3D applications, 3D web design, 3D web developer, 3D web designer",
         },
@@ -123,4 +135,5 @@ export default defineNuxtConfig({
       ],
     },
   },
+
 });

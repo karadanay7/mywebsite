@@ -15,12 +15,18 @@ head:
 sitemap:
   loc: /blog/nuxt-particles
 ---
-
 # Elevate Your Nuxt.js Website with Dynamic Particle Backgrounds: A Step-by-Step Guide
+
+<div class="flex flex-col items-center justify-center  p-2">
+  <img src="/img/nuxtparticles/1.jpg" style="width: 100%; height: 200px; object-fit: cover;" class="rounded-lg">
+
+</div>
+
 
 
 
 Are you looking to add an eye-catching element to your Nuxt.js website? Look no further! In this post, we'll walk you through the process of integrating dynamic particle backgrounds using tsparticles with Nuxt.js.<br/>
+
 
 
 ## Step 1: Installation

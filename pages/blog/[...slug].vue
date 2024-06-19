@@ -44,6 +44,16 @@ const { data } = await useAsyncData(`content-${path}`, () => {
 
 useHead({
   title: data.value.title,
-  meta: data.value.head.meta,
+  meta: [
+    ...data.value.head.meta,
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+  ],
 });
 </script>
