@@ -46,3 +46,34 @@ The @bind directive is a fundamental feature in Blazor, offering two-way data bi
  <input type="text" @bind="userName" />
 <p>Your username is: @userName</p>
  ```
+
+ ## @oninput for Instant Feedback
+The @oninput directive triggers an event on every keystroke or value change in the input field. This makes it ideal for scenarios where you need to provide immediate feedback or perform actions based on each character input.
+
+### Usage Scenario:
+
+
+<ol class="list-disc">
+ 
+  <li>Real-Time Validation: When you want to validate user input as they type, @oninput is perfect. This can enhance user experience by providing instant feedback on whether the input meets certain criteria.
+</li>
+    <li>Live Search: For implementing live search functionalities, where search results are updated dynamically as the user types, @oninput provides the required immediacy.</li>
+</ol>
+
+### Example:
+
+
+ ```
+<input type="text" @oninput="HandleInput" />
+<p>Current input: @currentInput</p>
+
+@code {
+    private string currentInput;
+
+    private void HandleInput(ChangeEventArgs e)
+    {
+        currentInput = e.Value.ToString();
+    }
+}
+
+ ```
