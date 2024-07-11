@@ -4,22 +4,21 @@ authorname: Aysegul Karadan
 title: "Input Handling in Blazor Apps"
 img: /img/blazor-input/1.png
 date: 11/07/2024
-description: " Curious about different ways to handle input fields in Blazor apps? Here’s a look at various usage scenarios and reasons for each! "
+description: "Curious about different ways to handle input fields in Blazor apps? Here’s a look at various usage scenarios and reasons for each! "
 head:
   meta:
     - name: "keywords"
-      content: "NuGet package conflict, Visual Studio Code, .NET Core, C#, software development, troubleshooting, NETSDK1082, There was no runtime pack for Microsoft.AspNetCore.App available for the specified RuntimeIdentifier ‘browser-wasm’, browser-wasm error, runtime pack errors"
+      content: "Blazor, input handling, @bind directive, @oninput directive, @onchange directive, Blazor tutorials, Blazor forms, real-time synchronization, immediate feedback, Blazor data binding, Blazor events, frontend development, .NET 8, web development, Aysegul Karadan"
 
     - name: "author"
       content: "Aysegul Karadan"
 sitemap:
-  loc: /blog/browser-wasm-error
+  loc: /blog/input-handling-in-blazor-apps
 ---
 
 # Input Handling in Blazor Apps: @bind vs @oninput vs @onchange Usage
 
-<div class="flex items-center justify-center"><img src="/img/blazor-input/1.png"  class="rounded  h-44">
-</div>
+
 
 
 <p>
@@ -30,7 +29,6 @@ Blazor provides various ways to handle input fields, making it a powerful framew
 The @bind directive is a fundamental feature in Blazor, offering two-way data binding between an input field and a property. This ensures that any change in the input field's value is instantly reflected in the bound property, and vice versa.
 
 ### Usage Scenario:
-
 
 
 <ol class="list-disc">
@@ -105,3 +103,30 @@ The @oninput directive triggers an event on every keystroke or value change in t
     }
 }
  ```
+
+ ## Combining @bind and @oninput
+
+ In some cases, you may need the functionality of both @bind and @oninput. For example, in a live search scenario, you might want to keep the input field synchronized with a data model (@bind) while also providing immediate feedback on each keystroke (@oninput).
+
+ ### Example:
+
+
+ ```
+<input type="text" @bind="searchQuery" @oninput="PerformSearch" />
+<p>Search results for: @searchQuery</p>
+
+@code {
+    private string searchQuery;
+
+    private void PerformSearch(ChangeEventArgs e)
+    {
+        searchQuery = e.Value.ToString();
+        // Perform search logic here
+    }
+}
+
+ ```
+
+ ## Conclusion
+
+ Choosing the right directive for handling input fields in Blazor depends on the specific needs of your application. Use @bind for real-time synchronization, @oninput for immediate feedback, and @onchange for actions dependent on the final value change. By understanding and leveraging these directives, you can build more responsive and user-friendly Blazor applications.
