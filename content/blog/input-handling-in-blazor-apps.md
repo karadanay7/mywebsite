@@ -75,5 +75,33 @@ The @oninput directive triggers an event on every keystroke or value change in t
         currentInput = e.Value.ToString();
     }
 }
+ ```
 
+ ## @onchange for Final Value Actions
+ The @onchange directive triggers an event only when the input field loses focus and the value has been fully changed. This is useful for scenarios where you need to perform an action after the user has finished entering their input.
+
+ ### Usage Scenario:
+
+ <ol class="list-disc">
+ 
+  <li>Form Submission: When the action depends on the final value of the input, such as submitting a form or confirming changes, @onchange is appropriate. It ensures that the action is taken only after the user has completed their input.
+</li>
+    <li>Batch Updates: If you need to perform operations that should only happen once the user has finalized their input, @onchange provides the necessary control.</li>
+</ol>
+
+### Example:
+
+
+ ```
+<input type="text" @onchange="HandleChange" />
+<p>Final input: @finalInput</p>
+
+@code {
+    private string finalInput;
+
+    private void HandleChange(ChangeEventArgs e)
+    {
+        finalInput = e.Value.ToString();
+    }
+}
  ```
