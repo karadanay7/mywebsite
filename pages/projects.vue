@@ -6,6 +6,7 @@
         :image="project.image"
         :viewUrl="project.viewUrl"
         :githubUrl="project.githubUrl"
+        :description="project.description"
       />
     </div>
   </div>
@@ -30,40 +31,55 @@ useHead({
   ],
 });
 const projectsList = [
+  
+ 
   {
     id: 1,
-    name: "SaleSpot - Nuxt.js",
-    image: "/salespot.jpg",
-    viewUrl: "https://youtu.be/vZ2p8w5SZKg",
-    githubUrl: "https://github.com/karadanay7/salesapp",
+    name: "IconBuilderAI",
+    image: "/iconbuilderai.jpg",
+    viewUrl: "https://youtu.be/-VvroGSEJ_8",
+    githubUrl: "https://github.com/karadanay7/IconBuilderAI",
+    description: "IconBuilderAi is a web application that allows users to create icons wi. It is developed using .Net 8, Blazor, OpenAI and TailwindCSS",
   },
   {
     id: 2,
-    name: "MealMate - .Net 8, Blazor, OpenAi",
+    name: "MealMate ",
     image: "/mealmate.jpg",
     viewUrl: "https://youtu.be/SKZUzoLH1VQ",
     githubUrl: "https://github.com/karadanay7/MealMate",
+    description: "MealMate is a web application that allows users to get 7-days meal plan. It is developed using .Net 8, Blazor, OpenAI and TailwindCSS",
   },
   {
     id: 3,
-    name: "Hue-Man | Motivation App - Nuxt.js",
+    name: "SaleSpot ",
+    image: "/salespot.jpg",
+    viewUrl: "https://youtu.be/vZ2p8w5SZKg",
+    githubUrl: "https://github.com/karadanay7/salesapp",
+    description: "SaleSpot is a web application that allows stores to create special offers to users. It is developed using Nuxt.js,Pinia, Vuetify, Supabase, Prisma, TailwindCSS, NuxtUI",
+  },
+  {
+    id: 3,
+    name: "Hue-Man ",
     image: "/hueman.jpg",
     viewUrl: "https://www.youtube.com/watch?v=aIKvxXebzGk",
     githubUrl: "https://github.com/karadanay7/hue-man",
+    description:"Hue-Man is a web application that allows people stay motivated, track their goals and inspire eachother. It is developed using Nuxt.js,Node.js, Supabase,Prisma, NuxtUI , TailwindCSS,",
   },
   {
     id: 4,
-    name: "E-commerce website - Nuxt.js",
+    name: "E-commerce website ",
     image: "/butik.png",
     viewUrl: "https://youtu.be/ONhYLiRy6d8",
     githubUrl: "https://github.com/karadanay7/shoppingwebsite",
+    description: "It's an example E-commerce website. It is developed using Nuxt.js, Supabase, Prisma, TailwindCSS",
   },
   {
     id: 5,
-    name: "Photographer Website Example - Nuxt.js",
+    name: "Photographer Website Example ",
     image: "/photographer.png",
     viewUrl: "https://verdant-pixie-cc5ea6.netlify.app/",
     githubUrl: "https://github.com/karadanay7/personal-example-1",
+    description: "It's an example photographer website. It is developed using Nuxt.js, TailwindCSS",
   },
   {
     id: 6,
@@ -71,69 +87,79 @@ const projectsList = [
     image: "/frog.png",
     viewUrl: "https://eloquent-sprinkles-61e90b.netlify.app/",
     githubUrl: "https://github.com/karadanay7/ribbitville",
+    description: "It's an example frog concept website. It is developed using Nuxt.js, TailwindCSS",
   },
   {
     id: 7,
-    name: "Netflix Clone TV - Vue.js",
+    name: "Netflix Clone TV ",
     image: "/netflix-clone.png",
     viewUrl: "https://youtu.be/ep0j7wUJ8rY", 
     githubUrl: "https://github.com/karadanay7/netflix-clone-for-tv",
+    description: "It's an example Netflix Clone TV. It is developed using Vue.js,Pinia, TailwindCSS",
   },
   {
     id: 8,
-    name: "Aliexpress Clone - Nuxt.js",
+    name: "Aliexpress Clone ",
     image: "/aliexpressclone.png",
     viewUrl: "https://youtu.be/ayB9RhNYKZY", 
     githubUrl: "https://github.com/karadanay7/aliexpress-clone",
+    description: "It's an example Aliexpress Clone. It is developed using Nuxt.js, TailwindCSS, Prisma, Supabase, Pinia, Stripe",
   },
   {
     id: 9,
-    name: "Threads-Clone - Nuxt.js",
+    name: "Threads-Clone ",
     image: "/threads.png",
     viewUrl: "https://youtu.be/ikDtpy4enyo", 
     githubUrl: "https://github.com/karadanay7/threads-clone",
+    description: "It's an example Threads Clone. It is developed using Nuxt.js, TailwindCSS, Prisma, Supabase, Pinia",
   },
   {
     id: 10,
-    name: "3D Landing Page - Moon and Clouds",
+    name: "3D Moon and Clouds",
     image: "/moon.png",
     viewUrl: "https://brilliant-gelato-8bccd9.netlify.app/",
     githubUrl: "https://github.com/karadanay7/3D-moonsky",
+    description: "It's an example 3D Landing Page. It is developed using Nuxt.js, and Spline Design",
   },
   {
     id: 11,
-    name: "3D Landing Page - DNA",
+    name: "3D DNA",
     image: "/3ddna.png",
     viewUrl: "https://singular-creponne-e6d5bf.netlify.app/",
     githubUrl: "https://github.com/karadanay7/3D-dna",
+    description: "It's an example 3D Landing Page. It is developed using Nuxt.js, and Spline Design",
   },
   {
     id: 12,
-    name: "3D Landing Page - The Mountains",
+    name: "3D- The Mountains",
     image: "/3dmountain.png",
     viewUrl: "https://chic-cascaron-6c87d0.netlify.app/",
     githubUrl: "https://github.com/karadanay7/3D-mountain",
+    description: "It's an example 3D Landing Page. It is developed using Nuxt.js, and Three.js",
   },
   {
     id: 13,
-    name: "3D Landing Page - The Earth",
+    name: "3D - The Earth",
     image: "/3dearth.png",
     viewUrl: "https://sunny-syrniki-b660e6.netlify.app/",
     githubUrl: "https://github.com/karadanay7/3D-earth",
+    description: "It's an example 3D Landing Page. It is developed using Nuxt.js, and Spline Design",
   },
   {
     id: 14,
-    name: "3D Landing Page - Chips",
+    name: "3D Chips",
     image: "/3dchips.png",
     viewUrl: "https://stirring-meerkat-9cc923.netlify.app/",
     githubUrl: "https://github.com/karadanay7/3D-chips",
+    description: "It's an example 3D Landing Page. It is developed using Nuxt.js, and Spline Design",
   },
   {
     id: 15,
-    name: "3D Landing Page - Cubes",
+    name: "3D Cubes",
     image: "/3dcubes.png",
     viewUrl: "https://statuesque-alfajores-db4fb2.netlify.app/",
     githubUrl: "https://github.com/karadanay7/3D-cubeboxes",
+    description: "It's an example 3D Landing Page. It is developed using Nuxt.js, and Spline Design",
   },
   {
     id: 16,
@@ -141,6 +167,7 @@ const projectsList = [
     image: "/terzileyla.png",
     viewUrl: "https://terzileyla.com/",
     githubUrl: "https://github.com/karadanay7/terzileyla",
+    description: "It's an example Tailor Website. It is developed using Nuxt.js, TailwindCSS",
   },
   {
     id: 17,
@@ -148,6 +175,7 @@ const projectsList = [
     image: "/holiday.png",
     viewUrl: "https://karadanay7.github.io/holidaytownsofizmirslideshow/",
     githubUrl: "https://github.com/karadanay7/holidaytownsofizmirslideshow",
+    description: "It's an example Website. It is developed using HTML, CSS, JavaScript",
   },
   {
     id: 18,
@@ -155,6 +183,7 @@ const projectsList = [
     image: "/profilecards.png",
     viewUrl: "https://karadanay7.github.io/profilecards/",
     githubUrl: "https://github.com/karadanay7/profilecards",
+    description: "It's an example Profile Cards page. It is developed using HTML, CSS, JavaScript",
   },
   {
     id: 19,
@@ -162,6 +191,7 @@ const projectsList = [
     image: "/hamburgermenu.png",
     viewUrl: "https://karadanay7.github.io/hamburgermenu/",
     githubUrl: "https://github.com/karadanay7/hamburgermenu",
+    description: "It's an example Hamburger Menu. It is developed using HTML, CSS, JavaScript",
   },
   {
     id: 20,
@@ -169,6 +199,7 @@ const projectsList = [
     image: "/tellmeajoke.png",
     viewUrl: "https://karadanay7.github.io/joke-teller-robot/",
     githubUrl: "https://github.com/karadanay7/joke-teller-robot",
+    description: "It's an example Joke Teller Robot. It is developed using HTML, CSS, JavaScript",
   },
   {
     id: 21,
@@ -176,13 +207,15 @@ const projectsList = [
     image: "/infinityscroll.png",
     viewUrl: "https://karadanay7.github.io/Achitecture-Designs-Scroll/",
     githubUrl: "https://github.com/karadanay7/Achitecture-Designs-Scroll",
+    description: "It's an example Infinite Scroll page. It is developed using HTML, CSS, JavaScript",
   },
   {
-    id: 22,
+    id: 22, 
     name: " Subscription Page",
     image: "/subsciptionpage.png",
     viewUrl: "https://karadanay7.github.io/subscriptionpage/",
     githubUrl: "https://github.com/karadanay7/subscriptionpage",
+    description: "It's an example Subscription Page. It is developed using HTML, CSS, JavaScript",
   },
   {
     id: 23,
@@ -190,6 +223,7 @@ const projectsList = [
     image: "/quotegenerator.png",
     viewUrl: "https://karadanay7.github.io/quotegenerator/",
     githubUrl: "https://github.com/karadanay7/quotegenerator",
+    description: "It's an example Quote Generator. It is developed using HTML, CSS, JavaScript",
   },
   {
     id: 24,
@@ -197,6 +231,7 @@ const projectsList = [
     image: "/profilecard.png",
     viewUrl: "https://karadanay7.github.io/profilecard/",
     githubUrl: "https://github.com/karadanay7/profilecard",
+    description: "It's an example Profile Card page. It is developed using HTML, CSS, JavaScript",
   },
   {
     id: 25,
@@ -204,6 +239,7 @@ const projectsList = [
     image: "/darkmode.png",
     viewUrl: "https://karadanay7.github.io/darkmode/",
     githubUrl: "https://github.com/karadanay7/darkmode",
+    description: "It's an example Dark Mode page. It is developed using HTML, CSS, JavaScript",
   },
 ];
 </script>
