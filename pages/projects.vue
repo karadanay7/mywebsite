@@ -39,7 +39,7 @@ const projectsList = [
   },
   {
     id: 2,
-    name: "MealMate - .Net 8, C#, Blazor,OpenAi",
+    name: "MealMate - .Net 8, Blazor, OpenAi",
     image: "/mealmate.jpg",
     viewUrl: "https://youtu.be/SKZUzoLH1VQ",
     githubUrl: "https://github.com/karadanay7/MealMate",
