@@ -3,19 +3,24 @@
     <template #header>
       <h2 class="text-base sm:text-lg font-semibold text-center">{{ name }}</h2>
     </template>
-    <div class="flex flex-col h-80 overflow-hidden justify-center items-center">
-      <NuxtImg
+    <div class="flex flex-col  overflow-hidden justify-between items-center">
+      <div class="h-60  lg:h-72">
+        <NuxtImg
         v-if="image"
         :src="image"
         alt="projectimg"
         format="webp"
         sizes="100vw  lg:100vw"
         loading="lazy"
-        class="h-full w-full object-cover"
+        class="h-full w-full object-contain rounded-lg"
       />
-      <template v-else>
-        <!-- Buraya skeleton loader -->
-      </template>
+      </div>
+      <div class="flex items-end justify-end border p-2 rounded-lg border-gray-800">
+        <p>{{ description }}</p>
+
+      </div>
+     
+     
     </div>
     <template #footer>
       <div class="flex items-center justify-center gap-4">
@@ -49,5 +54,5 @@
   </UCard>
 </template>
 <script setup lang="ts">
-defineProps(["name", "image", "viewUrl", "githubUrl"]);
+defineProps(["name", "image", "viewUrl", "githubUrl","description"]);
 </script>
