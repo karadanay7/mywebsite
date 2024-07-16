@@ -1,5 +1,5 @@
 <template>
-  <div class="grid gap-12 grid-cols-1 md:grid-cols-2  xl:grid-cols-3 p-4 xl:px-20">
+  <div class="grid gap-12 grid-cols-1 md:grid-cols-2  xl:grid-cols-3 px-8 xl:px-20 pt-8 ">
     <div v-for="project in projectsList" :key="project.id">
       <Project
         :name="project.name"
@@ -7,6 +7,7 @@
         :viewUrl="project.viewUrl"
         :githubUrl="project.githubUrl"
         :description="project.description"
+        :extraLink="project.extraLink"
       />
     </div>
   </div>
@@ -39,7 +40,8 @@ const projectsList = [
     image: "/projects/iconbuilderai.png",
     viewUrl: "https://youtu.be/-VvroGSEJ_8",
     githubUrl: "https://github.com/karadanay7/IconBuilderAI",
-    description: "IconBuilderAi is a web application that allows users to create icons wi. It is developed using .Net 8, Blazor, OpenAI and TailwindCSS",
+    description: "IconBuilderAi is a web application that allows users to create icons. It is developed using .Net 8, Blazor, OpenAI and TailwindCSS during a bootcamp with ",
+    extraLink:"https://www.linkedin.com/in/altudev/"
   },
   {
     id: 2,
@@ -63,7 +65,7 @@ const projectsList = [
     image: "/projects/hueman.png",
     viewUrl: "https://www.youtube.com/watch?v=aIKvxXebzGk",
     githubUrl: "https://github.com/karadanay7/hue-man",
-    description:"Hue-Man is a web application that allows people stay motivated, track their goals and inspire eachother. It is developed using Nuxt.js,Node.js, Supabase,Prisma, NuxtUI , TailwindCSS,",
+    description:"Hue-Man is a web application that allows people stay motivated, track their goals and inspire eachother. It is developed using Nuxt.js,Node.js, Supabase, Prisma, NuxtUI, TailwindCSS",
   },
   {
     id: 5,

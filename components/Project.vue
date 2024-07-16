@@ -1,29 +1,32 @@
 <template>
-  <UCard>
+  <UCard class="flex flex-col justify-between h-full ">
     <template #header>
-      <h2 class="text-base sm:text-lg font-semibold text-center">{{ name }}</h2>
+      <h2 class="text-base sm:text-lg font-semibold text-center p-4">{{ name }}</h2>
     </template>
-    <div class="flex flex-col  overflow-hidden justify-between items-center">
-      <div class=" ">
+    <div class="flex flex-col justify-around items-start flex-grow gap-2 ">
+      <div class="w-full flex justify-center">
         <NuxtImg
-        v-if="image"
-        :src="image"
-        alt="projectimg"
-        format="webp"
-        sizes="100vw  lg:100vw"
-        loading="lazy"
-        class="h-full w-full object-contain rounded-lg"
-      />
+          v-if="image"
+          :src="image"
+          alt="projectimg"
+          format="webp"
+          sizes="100vw lg:100vw"
+          loading="lazy"
+          class="h-full w-full object-contain rounded-lg"
+        />
       </div>
-      <div class="flex items-end justify-end  p-2  ">
-        <p>{{ description }}</p>
-
+      <div class=" h-24  md:h-32   xl:h-32 2xl:h-28 overflow-hidden">
+        <p class="text-base ">{{ description }} <span>   <NuxtLink
+          v-if="extraLink"
+          :to="extraLink"
+          class="text-sm md:text-base text-blue-500 underline inline-block "
+          >Alper Tunga</NuxtLink></span></p>
+      
+     
       </div>
-     
-     
     </div>
     <template #footer>
-      <div class="flex items-center justify-center gap-4">
+      <div class="flex items-center justify-center gap-4 p-4">
         <UButton aria-label="viewButton">
           <NuxtLink
             aria-label="View project page"
@@ -34,8 +37,7 @@
               class="hidden md:inline-block ml-2"
               >View</span
             ></NuxtLink
-          ></UButton
-        >
+          ></UButton>
         <UButton aria-label="githubButton">
           <NuxtLink
             :to="githubUrl"
@@ -43,16 +45,16 @@
             external
             target="_blank"
             class="btn btn-link flex items-center"
-          >
-            <Icon name="uil:github" /><span class="hidden md:inline-block ml-2"
+            ><Icon name="uil:github" /><span
+              class="hidden md:inline-block ml-2"
               >Code</span
-            ></NuxtLink
-          ></UButton
-        >
+            ></NuxtLink>
+          </UButton>
       </div>
     </template>
   </UCard>
 </template>
+
 <script setup lang="ts">
-defineProps(["name", "image", "viewUrl", "githubUrl","description"]);
+defineProps(["name", "image", "viewUrl", "githubUrl", "description","extraLink"]);
 </script>
