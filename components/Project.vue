@@ -4,7 +4,7 @@
       <h2 class="text-base sm:text-lg font-semibold text-center">{{ name }}</h2>
     </template>
     <div class="flex flex-col  overflow-hidden justify-between items-center">
-      <div class="h-60  lg:h-72">
+      <div class=" ">
         <NuxtImg
         v-if="image"
         :src="image"
@@ -15,7 +15,7 @@
         class="h-full w-full object-contain rounded-lg"
       />
       </div>
-      <div class="flex items-end justify-end border p-2 rounded-lg border-gray-800">
+      <div class="flex items-end justify-end  p-2  ">
         <p>{{ description }}</p>
 
       </div>
