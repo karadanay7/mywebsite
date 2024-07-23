@@ -2,8 +2,8 @@
 authorname: Aysegul Karadan
 
 title: "Integrating Google Auth with Supabase in Nuxt.js  "
-img: /img/supabase/supabase.png
-date: 26/09/2023
+img: /img/supabase-google/16.jpg
+date: 23/07/2024
 description: "Learn to integrate Google Authentication with Supabase in a Nuxt.js project. This guide covers setting up Supabase Auth with Google, configuring Nuxt.js, and ensuring secure user authentication."
 head:
   meta:
