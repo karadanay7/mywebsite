@@ -13,6 +13,10 @@ export default <Partial<Config>>{
         'gray-light': '#d3dce6',
         'blue-dark': '#1e3a8a',
       },
+      fontFamily: {
+        index: ["Poppins"],
+        hero: ["Roboto"] 
+      },
     },
   },
 };

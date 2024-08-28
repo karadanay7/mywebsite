@@ -4,7 +4,7 @@
       "Empowering User Experience through Code Craftsmanship."
     </p>
     <p class="text-sm text-gray-400 text-center mt-2 border-b">
-      &copy; 2023. Aysegulk.me All Rights Reserved.
+      &copy; 2024. Aysegulk.me All Rights Reserved.
     </p>
   </div>
 </template>

@@ -11,7 +11,7 @@
       >
         <h2 class="text-lg md:text-xl lg:text-2xl">Aysegul Karadan</h2>
         <h1 class="text-3xl md:text-4xl lg:text-6xl">
-          Web Developer & Industrial Engineer 
+         Full-Stack Web Developer
         </h1>
 
         <p>
