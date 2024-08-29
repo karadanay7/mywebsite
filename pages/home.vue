@@ -1,9 +1,9 @@
 <template>
       <NuxtParticles id="tsparticles" :options="options" @load="onLoad">
     </NuxtParticles>
-    <div class="min-h-screen font-hero tracking-wide p-4 flex flex-col gap-16 items-center justify-center ">
+    <div class="min-h-screen font-hero tracking-wide p-4 flex flex-col gap-16 items-center justify-center  ">
       <!-- Hero Section -->
-      <section class="   flex flex-col items-center justify-start text-center min-h-96 gap-10 pt-8 md:pt-20">
+      <section class="   flex flex-col items-center justify-start text-center min-h-96 gap-10 pt-8 md:pt-20 animate-slidein">
   <!-- Attention-Grabbing Headline -->
    <div class="flex flex-wrap items-center justify-center px-10 gap-4 linear-wipe-hero">
     <h2 class=" text-4xl md:text-6xl font-extrabold  uppercase tracking-widest  ">
@@ -29,7 +29,7 @@
     <NuxtLink to="#contact">Contact Us Now!</NuxtLink>
   </UButton>
   <div>
-    <UIcon name="uil:arrow-down" class="text-7xl animate-bounce mt-8" />
+    <UIcon name="uil:arrow-down" class="text-7xl animate-bounce mt-8 text-primary" />
   </div>
 </section>
  <div class="grid grid-cols-1  xl:grid-cols-3 gap-10 items-center justify-center pt-24 ">
@@ -82,11 +82,11 @@
   <div class="flex flex-wrap gap-8 justify-center">
     
     <!-- Personal Website -->
-    <div class="max-w-md flex flex-col items-center  border rounded-lg border-primary p-2">
-      <h3 class="text-3xl font-semibold">Starting at $500</h3>
+    <div class="max-w-md flex flex-col items-center  border rounded-lg border-primary p-2  text-gray-600 dark:text-gray-200 ">
+      <h3 class="text-3xl font-semibold  dark:text-white text-gray-800">Starting at <span class="text-green-400">$500</span> </h3>
       <p>Basic personal website with up to 5 pages.</p>
-      <p><strong>Includes:</strong> Handcrafted design, responsive layout, and essential features.</p>
-      <h4 class="text-2xl font-semibold mt-4">Key Features:</h4>
+      <p><strong class="dark:text-white text-gray-800">Includes:</strong> Handcrafted design, responsive layout, and essential features.</p>
+      <h4 class="text-2xl font-semibold mt-4 dark:text-white text-gray-800">Key Features:</h4>
       <ul class="list-disc text-left">
         <li>Custom design tailored to personal branding</li>
         <li>Responsive layout for optimal viewing on all devices</li>
@@ -94,14 +94,14 @@
         <li>Blog or news sections (if needed)</li>
         <li>Contact form or booking system</li>
       </ul>
-      <p class="mt-2"><strong>Technologies Used:</strong> HTML/CSS, JavaScript, Vue.js/Nuxt.js, SEO tools.</p>
+      <p class="mt-2"><strong class="dark:text-white text-gray-800">Technologies Used:</strong> HTML/CSS, JavaScript, Vue.js/Nuxt.js, SEO tools.</p>
     </div>
 
     <!-- Business Website -->
-    <div class="max-w-md flex flex-col items-center  border rounded-lg border-primary p-2">
-      <h3 class="text-3xl font-semibold">Starting at $800</h3>
+    <div class="max-w-md flex flex-col items-center  border rounded-lg border-primary p-2  text-gray-600 dark:text-gray-200 ">
+      <h3 class="text-3xl font-semibold">Starting at <span class="text-green-400">$800</span> </h3>
       <p>Professional business website with up to 10 pages.</p>
-      <p class="mt-4"><strong>Includes:</strong> Custom design, advanced features, and SEO optimization.</p>
+      <p class="mt-4"><strong class="dark:text-white text-gray-800">Includes:</strong> Custom design, advanced features, and SEO optimization.</p>
       <h4 class="text-2xl font-semibold mt-4">Key Features:</h4>
       <ul class="list-disc text-left">
         <li>Professional design with brand alignment</li>
@@ -110,14 +110,14 @@
         <li>Content management system for easy updates</li>
         <li>Integration with third-party services (e.g., payment gateways, analytics)</li>
       </ul>
-      <p class="mt-2"><strong>Technologies Used:</strong> Vue.js/Nuxt.js, Tailwind CSS, Node.js, SEO tools, e-commerce platforms.</p>
+      <p class="mt-2"><strong class="dark:text-white text-gray-800">Technologies Used:</strong> Vue.js/Nuxt.js, Tailwind CSS, Node.js, SEO tools, e-commerce platforms.</p>
     </div>
 
     <!-- Blog Website -->
-    <div class="max-w-md flex flex-col items-center border rounded-lg border-primary p-2">
-      <h3 class="text-3xl font-semibold">Starting at $600</h3>
+    <div class="max-w-md flex flex-col items-center border rounded-lg border-primary p-2  text-gray-600 dark:text-gray-200 ">
+      <h3 class="text-3xl font-semibold">Starting at <span class="text-green-400">$600</span> </h3>
       <p>Custom blogging platform with up to 7 pages.</p>
-      <p><strong>Includes:</strong> Blog management system, user engagement features, and mobile responsiveness.</p>
+      <p><strong class="dark:text-white text-gray-800">Includes:</strong> Blog management system, user engagement features, and mobile responsiveness.</p>
       <h4 class="text-2xl font-semibold mt-4">Key Features:</h4>
       <ul class="list-disc text-left">
         <li>Blog management system with categories and tags</li>
@@ -126,14 +126,14 @@
         <li>Email subscription and newsletter integration</li>
         <li>Mobile responsiveness</li>
       </ul>
-      <p class="mt-2"><strong>Technologies Used:</strong> Nuxt.js, Vue.js, Node.js, Tailwind CSS, content management systems.</p>
+      <p class="mt-2"><strong class="dark:text-white text-gray-800">Technologies Used:</strong> Nuxt.js, Vue.js, Node.js, Tailwind CSS, content management systems.</p>
     </div>
     
     <!-- Custom Web Applications -->
-    <div class="max-w-md flex flex-col items-center border rounded-lg border-primary p-2">
+    <div class="max-w-md flex flex-col items-center border rounded-lg border-primary p-2  text-gray-600 dark:text-gray-200 ">
       <h3 class="text-3xl font-semibold mb-4">Let's Contact</h3>
       <h2 class="font-bold">Custom web application with interactive features.</h2>
-      <p><strong>Includes:</strong> Application development, advanced features, and ongoing support.</p>
+      <p><strong class="dark:text-white text-gray-800">Includes:</strong> Application development, advanced features, and ongoing support.</p>
       <h4 class="text-2xl font-semibold mt-4">Key Features:</h4>
       <ul class="list-disc text-left">
         <li>Fully tailored application development</li>
@@ -142,7 +142,7 @@
         <li>User authentication and authorization</li>
         <li>Ongoing support and maintenance</li>
       </ul>
-      <p class="mt-2"><strong>Technologies Used:</strong> C# .NET, JavaScript, Vue.js/Nuxt.js, RESTful APIs, databases (SQL/NoSQL).</p>
+      <p class="mt-2"><strong class="dark:text-white text-gray-800">Technologies Used:</strong>  Vue.js/Nuxt.js, RESTful APIs, C# .NET, Blazor, databases (SQL/NoSQL).</p>
     </div>
 
   </div>
@@ -162,7 +162,7 @@
    
   
       <!-- Frameworks Selection -->
-      <section class=" py-16 px-4">
+      <!-- <section class=" py-16 px-4">
         <div class="container mx-auto text-center">
           <h2 class="text-3xl font-bold mb-6">Choose Your Framework</h2>
           <p class="text-lg mb-12">Select the framework that best fits your project requirements. We work with the latest technologies to ensure optimal performance and scalability.</p>
@@ -190,15 +190,34 @@
           </div>
         </div>
       </section>
-  
+   -->
    
   
       <!-- Contact Form -->
       <section id="contact" class="py-16 px-4">
         <div class="container mx-auto text-center">
-          <h2 class="text-3xl font-bold mb-6">Contact Us</h2>
+          <h2 class="text-3xl font-bold mb-6">Contact Me!</h2>
           <p class="text-lg">Ready to start your project or have any questions? Reach out to us, and we'll get back to you as soon as possible.</p>
-        
+          <ul class="list-inside mt-6 list-none text-2xl">
+            <li>
+                <NuxtLink to="mailto:karadan.ay7@gmail.com">
+                E-Mail: Send me an email 
+                <UIcon name="uil:envelope" class="text-4xl  hover:text-primary mb-1"  dynamic />
+            </NuxtLink>
+            </li>
+            <li>
+
+          <NuxtLink to="https://wa.me/+905523541268 "
+            >WhatsApp:  Send me a message on WhatsApp 
+            <Icon
+              name="logos:whatsapp-icon"
+              class="w-8 h-8 text-gray-700 -mt-1 "
+          /></NuxtLink>
+            </li>
+          
+     
+         
+        </ul>
         </div>
       </section>
   
