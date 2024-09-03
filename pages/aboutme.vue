@@ -12,7 +12,7 @@
           class="w-full h-[600px] border border-gray-300"
           title="Resume"
         >
-          This browser does not support PDFs. Please download the PDF to view it: <a href="LINK_TO_YOUR_RESUME_PDF" class="text-blue-500 hover:underline">Download PDF</a>.
+          This browser does not support PDFs. Please download the PDF to view it: <a href="https://drive.google.com/file/d/17xFK7FQIGCh4AZFYBQU0RybpG9SRVB9y/view?usp=sharing" class="text-blue-500 hover:underline">Download PDF</a>.
         </iframe>
       </div>
   
