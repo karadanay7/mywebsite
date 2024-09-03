@@ -1,6 +1,6 @@
 <template>
   <UContainer>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 p-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10  p-2 md:p-8">
       <ContentList path="/blog">
         <template #default="{ list }">
           <UCard v-for="article in list" :key="article._path">
@@ -33,16 +33,16 @@
                   <time datetime="2020-03-16">{{ article.date }}</time>
                 </div>
                 <div class="flex items-center justify-center">
-                  <NuxtLink
+                  <ULink
                     :to="article._path"
                     class="hover:text-primary hover:scale-110"
                   >
                     Go to Read
                     <UIcon
                       name="i-heroicons-arrow-right"
-                      class="mb-1 animate-pulse"
-                    />
-                  </NuxtLink>
+                      class="-mb-[3px] animate-pulse text-lg"
+                    ></UIcon>
+                </ULink>
                 </div>
               </div>
             </template>

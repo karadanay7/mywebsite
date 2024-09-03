@@ -1,7 +1,7 @@
 <template>
   <UCard class="flex flex-col justify-between h-full ">
     <template #header>
-      <h2 class="text-2xl  font-semibold text-center p-4">{{ name }}</h2>
+      <h2 class=" text-lg md:text-2xl  font-semibold text-center p-4">{{ name }}</h2>
     </template>
     <div class="flex flex-col justify-around items-start flex-grow gap-2 ">
       <div class="w-full flex justify-center">
@@ -15,8 +15,8 @@
           class="h-full w-full object-contain rounded-lg"
         />
       </div>
-      <div class=" h-24  md:h-32   xl:h-32 2xl:h-28 overflow-hidden">
-        <p class="text-base ">{{ description }} <span>   <NuxtLink
+      <div class=" h-32   xl:h-32 2xl:h-28 overflow-hidden">
+        <p class=" text-sm md:text-base  ">{{ description }} <span>   <NuxtLink
           v-if="extraLink"
           :to="extraLink"
           class="text-base text-blue-500 underline inline-block "

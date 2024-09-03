@@ -1,7 +1,7 @@
 ---
 authorname: Aysegul Karadan
 
-title: "Fixing Runtime Pack Errors in WebAssembly Projects: NETSDK1082 error  "
+title: " NETSDK1082 error  "
 img: /img/browser-wasm/browser-wasm.jpg
 date: 12/06/2024
 description: " Learn about the unexpected NuGet package conflict and how a simple reorganization of project layers solved the problem. Read more about my experience in this short post! "

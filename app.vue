@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header class=" " />
+    <Header class="  " />
 
-    <NuxtPage class="z-0" />
-    <Footer  class="z-30"/>
+    <NuxtPage class="z-0 " />
+    <Footer  class="z-30 fixed bottom-0 "/>
   </div>
 </template>
 <script setup>

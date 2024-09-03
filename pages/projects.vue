@@ -1,5 +1,5 @@
 <template>
-  <div class="grid gap-12 grid-cols-1 md:grid-cols-2  xl:grid-cols-3 px-8 xl:px-20 pt-8 ">
+  <div class="grid gap-12 grid-cols-1 md:grid-cols-2  xl:grid-cols-3 px-8 xl:px-20 pt-8 pb-20 ">
     <div v-for="project in projectsList" :key="project.id">
       <Project
         :name="project.name"
