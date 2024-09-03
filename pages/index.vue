@@ -105,17 +105,39 @@ if (process.client) {
   window.addEventListener("resize", updateParticleNumber);
   updateParticleNumber();
 }
-
 useHead({
   title: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
   meta: [
-    { name: "description", content: "Full-Stack Developer with expertise in Vue.js, Nuxt.js, .NET, and Blazor. Passionate about creating impactful digital experiences." },
-    { name: "keywords", content: "full-stack developer, Vue.js, Nuxt.js, web applications, Node.js, .NET, JavaScript, Junior Developer, Expertise Developer, Frontend Developer, Front-end Developer, Full-stack Developer, frontend, backend, developer to hire, innovative developer" },
+    { name: "description", content: "Experienced Full-Stack Developer with expertise in Nuxt.js, Vue.js, Node.js, Supabase, TailwindCSS, .NET, and Blazor. Skilled in AI integration and technical blogging. Passionate about creating impactful digital experiences." },
+    { name: "keywords", content: "full-stack developer, Nuxt.js, Vue.js, web applications, Node.js, .NET, JavaScript, Junior Developer, Expertise Developer, Frontend Developer, Full-stack Developer, frontend, backend, developer to hire, innovative developer, TailwindCSS, Supabase, AI integration" },
     { name: "author", content: "Aysegul Karadan" },
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },
     { name: "robots", content: "index, follow" },
+    // Open Graph / Facebook
+    { property: "og:title", content: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js" },
+    { property: "og:description", content: "Experienced Full-Stack Developer with expertise in Nuxt.js, Vue.js, Node.js, Supabase, TailwindCSS, .NET, and Blazor. Skilled in AI integration and technical blogging." },
+  // Replace with URL to your profile image
+ // Replace with your profile URL
+    { property: "og:type", content: "profile" },
+    { property: "og:site_name", content: "Aysegul Karadan" },
+
+
+
+    // LinkedIn
+    { property: "linkedin:title", content: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js" },
+    { property: "linkedin:description", content: "Experienced Full-Stack Developer with expertise in Nuxt.js, Vue.js, Node.js, Supabase, TailwindCSS, .NET, and Blazor. Skilled in AI integration and technical blogging." },
+    { property: "linkedin:image", content: "https://media.licdn.com/dms/image/v2/D4D03AQFRJMq5JYbxXA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1720024331818?e=1730937600&v=beta&t=QznkzaayQnKwmV-gosZv2BRWoKsBMcy6mquFqb6DMuY" }, // Replace with URL to your profile image
+    { property: "linkedin:url", content: "https://www.linkedin.com/in/aysegulkaradan/" }, // Replace with your profile URL
+    // Additional Meta Tags
+    { property: "og:locale", content: "en_US" },
+    { property: "og:region", content: "TR" },
+    { name: "application-name", content: "Aysegul Karadan" },
+    { name: "msapplication-TileColor", content: "#ffffff" },
+    { name: "theme-color", content: "#ffffff" },
+    { name: "google-site-verification", content: "YOUR_VERIFICATION_CODE" }, // Replace with your Google site verification code if applicable
   ],
 });
+
 </script>
 
 <style scoped>
