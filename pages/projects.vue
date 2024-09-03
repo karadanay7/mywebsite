@@ -45,6 +45,16 @@ const projectsList = [
   },
   {
     id: 2,
+    name: "Spiderman 3 - Commercial Website",
+    image: "/projects/spiderman.jpg",
+    viewUrl: "https://www.youtube.com/watch?v=vMwYiJ-I_yk",
+    githubUrl: "https://github.com/karadanay7/spiderman",
+    description: "🚀 Spider-Man Web Experience: Dive into a dynamic, immersive web experience inspired by Spider-Man 3!  ",
+  
+  },
+
+  {
+    id: 2,
     name: "MealMate ",
     image: "/projects/mealmate.png",
     viewUrl: "https://youtu.be/SKZUzoLH1VQ",
