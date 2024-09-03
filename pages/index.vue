@@ -110,7 +110,7 @@ useHead({
   title: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
   meta: [
     { name: "description", content: "Full-Stack Developer with expertise in Vue.js, Nuxt.js, .NET, and Blazor. Passionate about creating impactful digital experiences." },
-    { name: "keywords", content: "full-stack developer, Vue.js, Nuxt.js, web applications, Node.js, .NET, JavaScript" },
+    { name: "keywords", content: "full-stack developer, Vue.js, Nuxt.js, web applications, Node.js, .NET, JavaScript, Junior Developer, Expertise Developer, Frontend Developer, Front-end Developer, Full-stack Developer, frontend, backend, developer to hire, innovative developer" },
     { name: "author", content: "Aysegul Karadan" },
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },
     { name: "robots", content: "index, follow" },
