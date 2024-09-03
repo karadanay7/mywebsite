@@ -12,11 +12,11 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     
   ],
- 
 
   tailwindcss: {
     cssPath: '~/assets/style.css',
   },
+
   robots: {
     UserAgent: '*',
     Disallow: '',
@@ -26,9 +26,11 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "dark",
   },
+
   site: {
     url: "https://aysegulk.me",
   },
+
   app: {
     head: {
       htmlAttrs: {
@@ -38,7 +40,7 @@ export default defineNuxtConfig({
         {
           rel: "icon",
           type: "image/png",
-          href: "/icologo.png",
+          href: "/ico-green.png",
         },
       ],
 
@@ -132,4 +134,5 @@ export default defineNuxtConfig({
     },
   },
 
+  compatibilityDate: "2024-09-03",
 });

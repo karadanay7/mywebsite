@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
-    primary: "sky",
-    gray: "cool",
+    primary: "green",
+    gray: "dark",
     icons: {
       dynamic: true,
     },

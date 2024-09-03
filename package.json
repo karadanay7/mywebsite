@@ -15,11 +15,13 @@
     "@nuxt/ui": "^2.14.0",
     "@nuxtjs/robots": "^3.0.0",
     "vue": "^3.4.19",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+        "gsap": "^3.12.5"
   },
   "devDependencies": {
     "@nuxtjs/sitemap": "^5.1.0",
     "nuxt": "^3.11.1",
-    "nuxt-particles": "^0.1.5"
+    "nuxt-particles": "^0.1.5",
+    "three": "^0.160.0"
   }
 }

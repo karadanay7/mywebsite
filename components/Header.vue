@@ -1,11 +1,11 @@
 <template>
   <UContainer
-    class="w-full flex items-center justify-between border-b border-gray-200 dark:border-gray-600"
+    class="w-full flex items-center justify-between  bg-transparent"
   >
     <div class="w-1/3">
       <ULink to="/">
         <NuxtImg
-          src="/logo.png"
+          src="/logo-green.png"
           alt="Logo"
           format="webp"
           class="h-8"
@@ -21,7 +21,7 @@
       >
         <Icon
           :name="isMenuOpen ? 'pajamas:close' : 'pajamas:hamburger'"
-          class="w-4 h-4 text-gray-300 dark:text-gray-900"
+          class="w-4 h-4 text-gray-300 dark:text-gray-900 mt-1"
         />
       </UButton>
     </div>
@@ -34,13 +34,14 @@
           on-icon="i-heroicons-sun"
           off-icon="i-heroicons-moon"
           size="lg"
+           class="border-2 border-primary"
         />
       </div>
     </div>
 
     <div
       v-if="isMenuOpen"
-      class="flex flex-col lg:hidden top-11 absolute z-10 mx-auto left-0 right-0 border rounded-lg text-start bg-white dark:bg-gray-900 border-gray-300 dark:border-gray-600 justify-center py-2 items-center"
+      class="flex flex-col lg:hidden top-11 absolute z-10 mx-auto left-0 right-0 border rounded-lg text-start bg-white dark:bg-stone-950 border-gray-300 dark:border-gray-600 justify-center py-2 items-center"
     >
       <div class="absolute top-0 w-full flex justify-end items-center"></div>
 
@@ -53,6 +54,8 @@
         off-icon="i-heroicons-moon"
         size="lg"
         aria-label="toggleButton"
+        class="border-2 border-primary"
+       
       />
     </div>
   </UContainer>
