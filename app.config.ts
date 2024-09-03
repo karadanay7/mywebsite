@@ -1,11 +1,12 @@
 export default defineAppConfig({
   ui: {
     primary: "green",
-    gray: "dark",
+    gray: "slate",
     icons: {
       dynamic: true,
     },
     card: {
+      background: 'bg-white dark:bg-emerald-950',
       divide: "divide-y divide-gray-200 dark:divide-gray-600",
       ring: "ring-1 ring-gray-200 dark:ring-gray-600",
 
