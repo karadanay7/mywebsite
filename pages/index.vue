@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row h-full ">
       <!-- Left Section -->
       <div class="w-full lg:basis-1/2 flex flex-col gap-5 justify-center p-8 lg:p-4 z-20">
-        <div class="flex flex-col items-start justify-center pt-0 lg:pt-24 gap-5 lg:pl-12">
+        <div class="flex flex-col items-start justify-center pt-0 md:pt-32 gap-5 lg:pl-12">
           <h2 class="text-xl md:text-2xl lg:text-3xl text-white">Aysegul Karadan</h2>
           <h1 class="text-3xl md:text-4xl lg:text-6xl text-white">Full-Stack Developer</h1>
 
