@@ -29,7 +29,9 @@ onMounted(() => {
 
   canvas.width = width;
   canvas.height = height;
-  
+
+ 
+
   function randomizeColumn(col) {
     for (let y = 0; y < rows; y++) {
       drawText[col][y] = words[Math.floor(Math.random() * words.length)];
@@ -37,7 +39,7 @@ onMounted(() => {
   }
 
   function randomizeStart() {
-    if (Math.random() > 0.2) {
+    if (Math.random() > 0) {  // Increase the chance to 95%
       const column = Math.floor(Math.random() * columns);
       if (drawStatus[column].every(status => status === 0)) {
         drawStatus[column][0] = 100;
