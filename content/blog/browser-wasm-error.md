@@ -8,7 +8,7 @@ description: " Learn about the unexpected NuGet package conflict and how a simpl
 head:
   meta:
     - name: "keywords"
-      content: "NuGet package conflict, Visual Studio Code, .NET Core, C#, software development, troubleshooting, NETSDK1082, There was no runtime pack for Microsoft.AspNetCore.App available for the specified RuntimeIdentifier ‘browser-wasm’, browser-wasm error, runtime pack errors"
+      content: "NuGet package conflict, Visual Studio Code, .NET Core, C#, software development, troubleshooting, NETSDK1082, There was no runtime pack for Microsoft.AspNetCore.App available for the specified RuntimeIdentifier ‘browser-wasm’, browser-wasm error, runtime pack errors, how to solve browser-wasm error, how to solve NETSDK1082 error"
 
     - name: "author"
       content: "Aysegul Karadan"

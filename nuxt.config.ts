@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   },
   seo: {
     redirectToCanonicalSiteUrl: true,
-  }
+  },
 
   robots: {
     UserAgent: '*',
@@ -32,6 +32,9 @@ export default defineNuxtConfig({
 
   site: {
     url: "https://aysegulk.me",
+    name: "Full-Stack Web Developer",
+    description: "Explore the portfolio of Aysegul Karadan, an experienced full-stack web developer specializing in Nuxt.js and Vue.js. Delivering high-quality web solutions with clean and efficient code.",
+    defaultLocale: "en",
   },
 
   app: {
@@ -84,6 +87,7 @@ export default defineNuxtConfig({
           name: "robots",
           content: "index, follow",
         },
+       
 
         {
           name: "og:title",

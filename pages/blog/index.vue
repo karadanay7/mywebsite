@@ -67,7 +67,7 @@ useHead({
     {
       name: "blog:description",
       content:
-        "Welcome to my blog! , engineering content, developer content, developer blog, web developer blog, engineering blog, blog page, engineering blog page, web developer blog page ",
+        "Welcome to my blog! , engineering content, developer content, developer blog, web developer blog, engineering blog, blog page, engineering blog page, web developer blog page, step-by-step tutorials, step by step tutorials, step by step coding ",
     },
     {
         name: "robots",
