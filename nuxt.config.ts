@@ -16,6 +16,9 @@ export default defineNuxtConfig({
   tailwindcss: {
     cssPath: '~/assets/style.css',
   },
+  seo: {
+    redirectToCanonicalSiteUrl: true,
+  }
 
   robots: {
     UserAgent: '*',

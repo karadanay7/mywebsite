@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
+
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
