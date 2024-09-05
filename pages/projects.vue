@@ -21,9 +21,9 @@ useHead({
       content: "Welcome to my projects page. Here you can find my projects that I have developed using Nuxt.js, .Net 8, C#, Blazor, OpenAI, and more.",
     },
     {
-      name: "projects",
+      name: "keywords",
       content:
-        "Nuxt.js project, Nuxt.js project example, Nuxt.js, web developer, nuxt web application,amazon clone, netflix clone, sale app, nuxt.js project example, nuxt.js, web developer, nuxt web application",
+        "Nuxt.js project, Nuxt.js project example, Nuxt.js, web developer, nuxt web application,amazon clone, netflix clone, sale app, nuxt.js project example, nuxt.js, web developer, nuxt web application, portfolio project, portfolio example code, mutliple portfolio code, multiple portfolio example, slideshow project code, infinity scroll project code, netflix clone nuxt3 project, aliexpress clone nuxt3 project, threads clone nuxt3 project, tailor website, tailor website nuxt3 project example, css animations, sewing animation, hamburger menu project code, dark mode light mode example with code, subscription page code example, quote generator example code, nuxt3 project example, nuxt3 application example, AI application, AI project, AI website, AI web design, 3D website, 3D models, 3D website , 3D design, 3D designing, 3D website, 3D apps, 3D applications, 3D web design, 3D web developer, 3D web designer, AI project, AI website, AI web design, AI web developer, AI web designer, E-commerce application, Application code examples, project code, project example, project code example, project example code, project code examples, project examples, project example codes, project codes, project examples code, project code example",
     },
     {
         name: "robots",

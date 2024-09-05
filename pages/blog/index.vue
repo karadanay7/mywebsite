@@ -60,6 +60,15 @@
 useHead({
   title: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
   meta: [
+        
+       {
+        name:"keywords",
+         content:"web development blog, Nuxt.js tutorials, Vue.js tips, full-stack development, frontend development, backend development, JavaScript best practices, coding tutorials, web design trends, UX/UI design, SEO tips, developer tools, programming tips, software development blog, web development insights, modern web technologies, development best practices, technical blogging, coding projects, Nuxt.js guides, Vue.js examples, JavaScript frameworks, web development resources, tech news, industry trends, developer community, coding for beginners, advanced coding techniques, web performance optimization, responsive design tips,Nuxt.js blog, Vue.js blog, developer blog, web development, Tailwind CSS tutorials, .NET development, Blazor tutorials, JavaScript frameworks, frontend development, backend development, coding tips, programming guides, software development insights, web design trends, responsive design, UI/UX design, SEO tips, technical blogging, full-stack development, modern web technologies, developer resources, coding best practices, software engineering, web performance optimization, web application development, industry news, tech trends, coding projects, and technical reviews.",
+
+       } ,
+     
+
+
   {
       name: "description",
       content: "Welcome to my blog! I write about web development, software engineering, engineering, and more.",
