@@ -1,7 +1,7 @@
 ---
 authorname: Aysegul Karadan
 
-title: "How to Calculate Standart Error(SE) "
+title: "Understanding and Calculating Standard Error: "
 img: /img/standart-error/3.png
 date: 05/10/2024
 description: "Learn how to calculate the standard error, understand its importance in statistical analysis, and explore practical examples. This guide covers essential concepts and formulas, helping you make informed decisions with sample data."
