@@ -4,7 +4,7 @@ authorname: Aysegul Karadan
 title: "How to Calculate Standart Error(SE) "
 img: /img/standart-error/3.png
 date: 05/10/2024
-description: "Discover how to troubleshoot the 'Database error saving new user', 'Failed to invite user: failed to make invite request: Database error saving new user'  or 'relation public.profiles does not exist supabase' error in Supabase. "
+description: "Learn how to calculate the standard error, understand its importance in statistical analysis, and explore practical examples. This guide covers essential concepts and formulas, helping you make informed decisions with sample data."
 head:
   meta:
     - name: "keywords"
