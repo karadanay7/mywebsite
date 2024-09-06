@@ -50,10 +50,11 @@
     <div class="flex lg:hidden items-center justify-center gap-2">
       <UToggle
   v-model="isDark"
-  :aria-pressed="isDark ? 'true' : 'false'"
+  
   :aria-label="isDark ? 'Dark mode is on' : 'Dark mode is off'"
   on-icon="i-heroicons-sun"
   off-icon="i-heroicons-moon"
+  type="button"
   size="lg"
   class="border-2 border-primary"
 />
