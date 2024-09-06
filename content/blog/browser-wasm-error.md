@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: " NETSDK1082 error  "
 img: /img/browser-wasm/browser-wasm.jpg
-date: 12/06/2024
+date: 2024-06-12
 description: " Learn about the unexpected NuGet package conflict and how a simple reorganization of project layers solved the problem. Read more about my experience in this short post! "
 head:
   meta:

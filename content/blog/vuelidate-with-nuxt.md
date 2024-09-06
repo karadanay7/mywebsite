@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "Using Vuelidate for Nuxt  "
 img: /img/vuelidate/1.png
-date: 28/02/2024
+date: 2024-02-28
 description: "Learn how to streamline form validation in your Nuxt.js application using Vuelidate and Nuxt UI components. This guide walks you through the integration process step-by-step, ensuring data integrity and enhancing user experience effortlessly. "
 head:
   meta:

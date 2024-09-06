@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "Using nuxt-particles/tsparticles with Nuxt "
 img: /img/nuxtparticles/1.jpg
-date: 11/03/2024
+date: 2024-03-11
 description: "Discover how to integrate dynamic particle backgrounds using tsparticles with Nuxt.js. Follow our step-by-step guide to create captivating animations for your website. "
 head:
   meta:

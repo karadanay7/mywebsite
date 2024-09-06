@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10  p-2 md:p-8">
       <ContentList path="/blog">
         <template #default="{ list }">
-          <UCard v-for="article in list" :key="article._path">
+          <UCard v-for="article in sortedPosts" :key="article._path">
             <template #header>
               <h1 class="text-lg text-center">{{ article.title }}</h1>
             </template>
@@ -11,13 +11,11 @@
             <ContentNavigation>
               <div class="flex flex-col h-80 overflow-hidden">
                 <p class="pb-4">{{ article.description }}</p>
-                <div
-                  class="flex justify-center items-center h-full w-full overflow-hidden"
-                >
+                <div class="flex justify-center items-center h-full w-full overflow-hidden">
                   <NuxtImg
                     :src="article.img"
                     alt="blogcontentimg"
-                    sizes="500px  lg:600px"
+                    sizes="500px lg:600px"
                     format="webp"
                     class="w-full"
                     quality="50"
@@ -27,22 +25,16 @@
             </ContentNavigation>
 
             <template #footer>
-              <div class="flex flex-cols-2 justify-between">
-                <div class="flex flex-col items-center justify-center">
+              <div class="flex justify-between">
+                <div class="flex flex-col items-center">
                   <p class="text-sm">{{ article.authorname }}</p>
-                  <time datetime="2020-03-16">{{ article.date }}</time>
+                  <time :datetime="article.date">{{ formatDate(article.date) }}</time>
                 </div>
-                <div class="flex items-center justify-center">
-                  <ULink
-                    :to="article._path"
-                    class="hover:text-primary hover:scale-110"
-                  >
+                <div class="flex items-center">
+                  <ULink :to="article._path" class="hover:text-primary hover:scale-110">
                     Go to Read
-                    <UIcon
-                      name="i-heroicons-arrow-right"
-                      class="-mb-[3px] animate-pulse text-lg"
-                    ></UIcon>
-                </ULink>
+                    <UIcon name="i-heroicons-arrow-right" class="-mb-[3px] animate-pulse text-lg"></UIcon>
+                  </ULink>
                 </div>
               </div>
             </template>
@@ -56,32 +48,33 @@
   </UContainer>
 </template>
 
-<script setup lang="ts">
+<script setup>
+
+
+
+const { data: sortedPosts } = await useAsyncData('all-blogs', () => {
+  return queryContent('blog').find().then(posts => {
+    return posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+  });
+});
+
+
+const formatDate = (dateString) => {
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return new Date(dateString).toLocaleDateString(undefined, options);
+};
+
 useHead({
-  title: "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
+  title: "Aysegul Karadan - Blog",
   meta: [
-        
-       {
-        name:"keywords",
-         content:"web development blog, Nuxt.js tutorials, Vue.js tips, full-stack development, frontend development, backend development, JavaScript best practices, coding tutorials, web design trends, UX/UI design, SEO tips, developer tools, programming tips, software development blog, web development insights, modern web technologies, development best practices, technical blogging, coding projects, Nuxt.js guides, Vue.js examples, JavaScript frameworks, web development resources, tech news, industry trends, developer community, coding for beginners, advanced coding techniques, web performance optimization, responsive design tips,Nuxt.js blog, Vue.js blog, developer blog, web development, Tailwind CSS tutorials, .NET development, Blazor tutorials, JavaScript frameworks, frontend development, backend development, coding tips, programming guides, software development insights, web design trends, responsive design, UI/UX design, SEO tips, technical blogging, full-stack development, modern web technologies, developer resources, coding best practices, software engineering, web performance optimization, web application development, industry news, tech trends, coding projects, and technical reviews.",
-
-       } ,
-     
-
-
-  {
+    {
       name: "description",
-      content: "Welcome to my blog! I write about web development, software engineering, engineering, and more.",
+      content: "Welcome to my blog! I write about web development, software engineering, and more.",
     },
     {
-      name: "blog:description",
-      content:
-        "Welcome to my blog! , engineering content, developer content, developer blog, web developer blog, engineering blog, blog page, engineering blog page, web developer blog page, step-by-step tutorials, step by step tutorials, step by step coding ",
+      name: "robots",
+      content: "index, follow",
     },
-    {
-        name: "robots",
-        content:" index, follow"
-      },
   ],
 });
 </script>

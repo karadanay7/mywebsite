@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "Nuxt3 Content Module"
 img: /img/nuxtcontent/nuxt.png
-date: 07/19/2023
+date: 2023-07-19
 description: "Unlock the Potential of Nuxt 3 Content Module: Transform Your Website into a Dynamic Content Hub"
 head:
   meta:

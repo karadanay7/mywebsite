@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "Relation public.profiles does not exist supabase  "
 img: /img/supabase/supabase.png
-date: 26/09/2023
+date: 2023-09-29
 description: "Discover how to troubleshoot the 'Database error saving new user', 'Failed to invite user: failed to make invite request: Database error saving new user'  or 'relation public.profiles does not exist supabase' error in Supabase. "
 head:
   meta:

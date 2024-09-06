@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "Kalman Filter Matlab Code"
 img: /img/kalman/Kalman.png
-date: 16/03/2023
+date: 2023-03-16
 description: "What is Kalman Filter ? How does Kalman Filter work? How can we solve real-life problem with using Kalman Filtering?"
 head:
   meta:

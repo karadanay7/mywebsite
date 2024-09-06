@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "Input Handling in Blazor Apps"
 img: /img/blazor-input/1.png
-date: 11/07/2024
+date: 2024-07-11
 description: "Curious about different ways to handle input fields in Blazor apps? Here’s a look at various usage scenarios and reasons for each! "
 head:
   meta:

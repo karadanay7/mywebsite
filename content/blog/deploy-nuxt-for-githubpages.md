@@ -2,7 +2,7 @@
 authorname: Aysegul Karadan
 title: "Deploying a Nuxt3 project on GitHub Pages"
 img: /img/Nuxt3-Github-pages/Picture1.png
-date: 21/03/2023
+date: 2023-02-21
 description: "Learn How to deploy a Nuxt3 project for gh-pages step by step guide."
 head:
   meta:

@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "Using Stripe With Nuxt3"
 img: /img/stripe/stripe1.png
-date: 15/09/2023
+date: 2023-09-15
 description: "Discover how to seamlessly integrate the powerful Stripe payment processing platform with Nuxt 3, the latest iteration of the popular Vue.js framework. "
 head:
   meta:

@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "System Simulation"
 img: /img/simulation/Picture1.png
-date: 20/03/2023
+date: 2023-03-25
 description: "What is Modeling and  Simulation? What are the Pros and Cons of Simulation? Characterization of the Simulation Model, Model Developments Processes"
 head:
   meta:

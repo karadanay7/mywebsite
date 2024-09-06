@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "Failed to build iOS app Error (Xcode): Sandbox:"
 img: /img/flutter-error/flutter.png
-date: 29/10/2023
+date: 2023-10-29
 description: "Fixing the error : Failed to build iOS app Error (Xcode): Sandbox"
 head:
   meta:

@@ -3,7 +3,7 @@ authorname: Aysegul Karadan
 
 title: "How to use Tailwind with Nuxt"
 img: /img/tailwind/tailwind.png
-date: 14/11/2023
+date: 2023-11-14
 description: "Discover the perfect harmony of style and efficiency with our latest blog post on Using Tailwind with Nuxt 3."
 head:
   meta:
