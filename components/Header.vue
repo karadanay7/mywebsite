@@ -49,14 +49,15 @@
     </div>
     <div class="flex lg:hidden items-center justify-center gap-2">
       <UToggle
-        v-model="isDark"
-        on-icon="i-heroicons-sun"
-        off-icon="i-heroicons-moon"
-        size="lg"
-        aria-label="toggleButton"
-        class="border-2 border-primary"
-       
-      />
+  v-model="isDark"
+  :aria-pressed="isDark ? 'true' : 'false'"
+  :aria-label="isDark ? 'Dark mode is on' : 'Dark mode is off'"
+  on-icon="i-heroicons-sun"
+  off-icon="i-heroicons-moon"
+  size="lg"
+  class="border-2 border-primary"
+/>
+
     </div>
   </UContainer>
 </template>

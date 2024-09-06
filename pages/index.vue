@@ -30,7 +30,7 @@
       </div>
 
       <!-- Right Section -->
-      <!-- <div class="w-full lg:basis-1/2 flex flex-col justify-center p-8 lg:p-4 z-20">
+      <div class="hidden  w-full lg:basis-1/2 justify-center p-8 lg:p-4 z-20">
         <h3 class="text-xl md:text-2xl lg:text-3xl mb-4 text-white">Skills & Expertise</h3>
         <ul class="list-disc list-inside mb-8 text-white">
           <li>Full-Stack Development with Nuxt.js, Vue.js, ASP.NET Core, Blazor</li>
@@ -40,7 +40,7 @@
           <li>Database Management: PostgreSQL, Supabase, AWS, MongoDB</li>
           <li>Design & UX: Spline, Three.js</li>
         </ul>
-      </div> -->
+      </div> 
     </div>
 
     <!-- Three.js Component with fixed positioning as a background -->
