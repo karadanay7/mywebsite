@@ -39,7 +39,7 @@ onMounted(() => {
   }
 
   function randomizeStart() {
-    if (Math.random() > 0) {  // Increase the chance to 95%
+    if (Math.random() > 0.05) {  // Increase the chance to 95%
       const column = Math.floor(Math.random() * columns);
       if (drawStatus[column].every(status => status === 0)) {
         drawStatus[column][0] = 100;

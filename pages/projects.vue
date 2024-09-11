@@ -45,9 +45,9 @@ const projectsList = [
   },
   {
     id: 2,
-    name: " Commercial Website",
+    name: " 3D Spider-Man",
     image: "/projects/spiderman.jpg",
-    viewUrl: "https://www.youtube.com/watch?v=vMwYiJ-I_yk",
+    viewUrl: "https://www.youtube.com/watch?v=SjuyzpqcMFE",
     githubUrl: "https://github.com/karadanay7/spiderman",
     description: "🚀 Spider-Man Web Experience: Dive into a dynamic, immersive web experience inspired by Spider-Man 3! Nuxt.js - Three.js - TailwindCSS ",
   
