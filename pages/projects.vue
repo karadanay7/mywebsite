@@ -33,9 +33,26 @@ useHead({
 });
 const projectsList = [
   
+{
+    id:1,
+    name: "MealMate ",
+    image: "/projects/mealmate.png",
+    viewUrl: "https://youtu.be/SKZUzoLH1VQ",
+    githubUrl: "https://github.com/karadanay7/MealMate",
+    description: "MealMate is a web application that allows users to get 7-days meal plan. It is developed using .Net 8, Blazor, OpenAI and TailwindCSS",
+  },
+  {
+    id: 2,
+    name: "SaleSpot ",
+    image: "/projects/salespot.png",
+    viewUrl: "https://youtu.be/vZ2p8w5SZKg",
+    githubUrl: "https://github.com/karadanay7/salesapp",
+    description: "SaleSpot is a web application that allows stores to create special offers to users. It is developed using Nuxt.js,Pinia, Vuetify, Supabase, Prisma, TailwindCSS, NuxtUI",
+  },
+
  
   {
-    id: 1,
+    id: 3,
     name: "IconBuilderAI",
     image: "/projects/iconbuilderai.png",
     viewUrl: "https://youtu.be/-VvroGSEJ_8",
@@ -44,7 +61,7 @@ const projectsList = [
     extraLink:"https://www.linkedin.com/in/altudev/"
   },
   {
-    id: 2,
+    id: 4,
     name: " 3D Spider-Man",
     image: "/projects/spiderman.jpg",
     viewUrl: "https://www.youtube.com/watch?v=SjuyzpqcMFE",
@@ -53,22 +70,8 @@ const projectsList = [
   
   },
 
-  {
-    id:3,
-    name: "MealMate ",
-    image: "/projects/mealmate.png",
-    viewUrl: "https://youtu.be/SKZUzoLH1VQ",
-    githubUrl: "https://github.com/karadanay7/MealMate",
-    description: "MealMate is a web application that allows users to get 7-days meal plan. It is developed using .Net 8, Blazor, OpenAI and TailwindCSS",
-  },
-  {
-    id: 4,
-    name: "SaleSpot ",
-    image: "/projects/salespot.png",
-    viewUrl: "https://youtu.be/vZ2p8w5SZKg",
-    githubUrl: "https://github.com/karadanay7/salesapp",
-    description: "SaleSpot is a web application that allows stores to create special offers to users. It is developed using Nuxt.js,Pinia, Vuetify, Supabase, Prisma, TailwindCSS, NuxtUI",
-  },
+ 
+ 
   {
     id: 5,
     name: "Hue-Man ",
