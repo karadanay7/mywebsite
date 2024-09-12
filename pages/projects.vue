@@ -180,7 +180,7 @@ const projectsList = [
     id: 18,
     name: "Tailor Website - Nuxt.js",
     image: "/projects/terzileyla.png",
-    viewUrl: "https://terzileyla.com/",
+    viewUrl: "https://peppy-taffy-37bcff.netlify.app",
     githubUrl: "https://github.com/karadanay7/terzileyla",
     description: "It's an example Tailor Website. It is developed using Nuxt.js, TailwindCSS",
   },
