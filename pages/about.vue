@@ -175,55 +175,50 @@ if (process.client) {
   updateParticleNumber();
 }
 useHead({
+  title: "Aysegul Karadan - Junior Full-Stack Developer for Hire",
   meta: [
     {
       name: "description",
       content:
-        "Experienced Full-Stack Developer with expertise in Nuxt.js, Vue.js, Node.js, Supabase, TailwindCSS, .NET, and Blazor. Skilled in AI integration and technical blogging. Passionate about creating impactful digital experiences.",
+        "Aysegul Karadan: Talented junior full-stack developer for hire. Expertise in Nuxt.js, Vue.js, Node.js, .NET, and Blazor. Seeking entry-level opportunities to contribute innovative solutions and grow in a dynamic tech environment.",
     },
     {
       name: "keywords",
       content:
-        "full-stack developer, Nuxt.js, Vue.js, web applications, Node.js, .NET, JavaScript, Junior Developer, Expertise Developer, Frontend Developer, Full-stack Developer, frontend, backend, developer to hire, innovative developer, TailwindCSS, Supabase, AI integration, developer, development,web developer, web development, web developers near me, web development services, website developer, website designer ",
+        "full-stack developer, Nuxt.js, Vue.js, web applications, Node.js, .NET, JavaScript, Junior Developer, Entry-Level Developer, Graduate Developer, Developer for Hire, Frontend Developer, Backend Developer, Full-stack Developer, Software Engineer, Web Developer, Coding Bootcamp Graduate, Career Transition to Tech, New Grad Developer, Junior Programmer, Entry-Level Programmer, Junior Software Engineer, Junior Web Developer, Aspiring Developer, Tech Talent, Fresh Graduate in Computer Science, Innovative Developer, AI Enthusiast, TailwindCSS, Supabase, AI integration, .NET Developer, Blazor Developer, C# Programmer, TypeScript Developer, React Developer, Angular Developer, Mobile App Developer, Cloud Computing, DevOps Enthusiast, Agile Methodologies, Test-Driven Development, UI/UX Design, Responsive Web Design, Cross-Browser Compatibility, Version Control, Git, GitHub, Continuous Integration, Continuous Deployment, Code Optimization, Web Performance, SEO Best Practices, Accessibility Standards, Progressive Web Apps, Serverless Architecture, Microservices, Docker, Kubernetes, Machine Learning Enthusiast, Blockchain Basics, IoT Development, Cybersecurity Awareness, Problem-Solving Skills, Team Player, Fast Learner, Passionate about Technology, Open to Relocation, Remote Work, Hybrid Work Model, Internship Opportunities, Entry-Level Positions, Junior Developer Roles, Graduate Schemes in Tech, Mentorship Programs, Code Bootcamp Graduate, Self-Taught Programmer, Junior Full-Stack Developer for Hire, Entry-Level Web Developer Seeking Opportunities, Recent Graduate in Computer Science, Junior Software Engineer Open to New Challenges, Aspiring Tech Professional, Junior Developer with Strong Portfolio, Entry-Level Programmer Ready to Contribute, Fresh Talent in Web Development, Junior Coder Eager to Learn and Grow, New Developer Seeking First Professional Role, Junior Tech Enthusiast for Hire, Entry-Level Full-Stack Developer Available, Recent Bootcamp Graduate Ready for Industry, Junior Developer with Passion for Innovation, Entry-Level Software Engineer Seeking Mentorship, Fresh Web Developer with Modern Tech Stack, Junior Programmer with Strong Problem-Solving Skills, Entry-Level .NET Developer, Junior Vue.js Developer, Entry-Level Node.js Developer, Junior React Developer, Entry-Level JavaScript Developer, Junior C# Developer, Entry-Level Frontend Developer, Junior Backend Developer, Entry-Level Mobile App Developer, Junior Cloud Computing Enthusiast, Entry-Level DevOps Practitioner, Junior AI/ML Developer, Entry-Level Blockchain Developer, Junior IoT Developer, Entry-Level Cybersecurity Enthusiast",
     },
     { name: "author", content: "Aysegul Karadan" },
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },
     { name: "robots", content: "index, follow" },
-
     {
       property: "og:title",
-      content:
-        "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
+      content: "Aysegul Karadan - Junior Full-Stack Developer for Hire",
     },
     {
       property: "og:description",
       content:
-        "Experienced Full-Stack Developer with expertise in Nuxt.js, Vue.js, Node.js, Supabase, TailwindCSS, .NET, and Blazor. Skilled in AI integration and technical blogging.",
+        "Talented junior full-stack developer seeking entry-level opportunities. Expertise in Nuxt.js, Vue.js, Node.js, .NET, and Blazor. Ready to contribute innovative solutions and grow in a dynamic tech environment.",
     },
-
     { property: "og:type", content: "profile" },
     { property: "og:site_name", content: "Aysegul Karadan" },
-
     {
       property: "linkedin:title",
-      content:
-        "Aysegul Karadan - Full-Stack Developer | Nuxt.js, Vue.js, Node.js",
+      content: "Aysegul Karadan - Junior Full-Stack Developer for Hire",
     },
     {
       property: "linkedin:description",
       content:
-        "Experienced Full-Stack Developer with expertise in Nuxt.js, Vue.js, Node.js, Supabase, TailwindCSS, .NET, and Blazor. Skilled in AI integration and technical blogging.",
+        "Talented junior full-stack developer seeking entry-level opportunities. Expertise in Nuxt.js, Vue.js, Node.js, .NET, and Blazor. Ready to contribute innovative solutions and grow in a dynamic tech environment.",
     },
     {
       property: "linkedin:image",
       content:
         "https://media.licdn.com/dms/image/v2/D4D03AQFRJMq5JYbxXA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1720024331818?e=1730937600&v=beta&t=QznkzaayQnKwmV-gosZv2BRWoKsBMcy6mquFqb6DMuY",
-    }, // Replace with URL to your profile image
+    },
     {
       property: "linkedin:url",
       content: "https://www.linkedin.com/in/aysegulkaradan/",
-    }, // Replace with your profile URL
-
+    },
     { property: "og:locale", content: "en_US" },
     { property: "og:region", content: "TR" },
     { name: "application-name", content: "Aysegul Karadan" },

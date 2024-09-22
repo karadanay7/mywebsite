@@ -20,15 +20,15 @@ useHead({
     {
       name: "description",
       content:
-        "Explore my projects, showcasing expertise in Nuxt.js, .NET, C#, Blazor, OpenAI, and more. From e-commerce to AI-powered applications.",
+        "Explore my diverse portfolio of web development projects, showcasing expertise in Nuxt.js, .NET, C#, Blazor, OpenAI, and more. From AI-powered applications to 3D web experiences and e-commerce platforms.",
     },
     {
       name: "keywords",
       content:
-        "Nuxt.js, Vue.js, Node.js, .NET, C#, Blazor, OpenAI, web development projects, full-stack developer, portfolio, e-commerce, AI applications, 3D websites",
+        "Nuxt.js, Vue.js, Node.js, .NET, C#, Blazor, OpenAI, web development projects, full-stack developer, portfolio, e-commerce, AI applications, 3D websites, MealMate, meal planning, SaleSpot, special offers platform, IconBuilderAI, icon creation, 3D Spider-Man, immersive web experience, Three.js, Hue-Man, motivation tracker, Netflix Clone, Aliexpress Clone, Threads Clone, 3D Moon and Clouds, 3D DNA, 3D Mountains, 3D Earth, 3D Chips, 3D Cubes, Spline Design, tailor website, holiday towns showcase, profile cards, hamburger menu, joke teller robot, infinite scroll, subscription page, quote generator, dark mode implementation, responsive design, TailwindCSS, Pinia, Vuetify, Supabase, Prisma, NuxtUI, Stripe integration, HTML, CSS, JavaScript, Nuxt projects, Nuxt tutorials, Vue projects, Vue tutorials, C# projects, C# tutorials, .NET tutorials, Blazor projects, Blazor tutorials, full-stack tutorials, web development tutorials, JavaScript tutorials, TypeScript tutorials, React projects, React tutorials, Angular projects, Angular tutorials, Node.js projects, Node.js tutorials, Express.js, MongoDB, SQL Server, PostgreSQL, MySQL, GraphQL tutorials, REST API development, microservices architecture, Docker tutorials, Kubernetes tutorials, CI/CD pipelines, Git workflows, Agile methodologies, Scrum, Kanban, test-driven development (TDD), behavior-driven development (BDD), unit testing, integration testing, end-to-end testing, performance optimization, web accessibility, WCAG compliance, responsive web design, mobile-first development, progressive web apps (PWAs), serverless architecture, cloud computing, AWS, Azure, Google Cloud Platform, Firebase, Netlify, Vercel, Heroku, digital ocean, web security best practices, OWASP top 10, cross-site scripting (XSS) prevention, SQL injection prevention, CSRF protection, authentication and authorization, OAuth 2.0, JWT, social media integration, payment gateway integration, email integration, SMS integration, push notifications, WebSockets, real-time applications, data visualization, D3.js, Chart.js, WebGL, Three.js tutorials, AR/VR web development, machine learning in web applications, TensorFlow.js, natural language processing (NLP), computer vision, blockchain development, smart contracts, Solidity, web3.js, Ethereum, NFT development, IoT web applications, WebAssembly, Rust, Go, Python integration in web apps, Flask, Django, Ruby on Rails, PHP, Laravel, WordPress development, Shopify development, e-commerce platforms, CMS development, headless CMS, JAMstack, static site generators, SEO optimization techniques, Google Analytics integration, A/B testing, user experience (UX) design, user interface (UI) design, wireframing, prototyping, Figma, Adobe XD, Sketch, responsive images, lazy loading, code splitting, tree shaking, bundle optimization, web performance metrics, Core Web Vitals, accessibility testing, cross-browser compatibility, mobile app development with web technologies, Cordova, Ionic, React Native, Flutter, web components, Shadow DOM, Custom Elements, ES6+ features, async/await, Promises, Generators, Decorators, Proxy, Reflect, Map, Set, Symbol, BigInt, Intl API, Web Workers, Service Workers, IndexedDB, LocalStorage, SessionStorage, WebRTC, WebGL 2.0, WebGPU, WebXR, Web Bluetooth, Web USB, Web MIDI, Geolocation API, Battery Status API, Vibration API, Web Audio API, Media Capture and Streams API, WebVR, WebAR",
     },
     { name: "robots", content: "index, follow" },
-    // Open Graph / Facebook
+
     { property: "og:type", content: "website" },
     {
       property: "og:title",
@@ -37,7 +37,7 @@ useHead({
     {
       property: "og:description",
       content:
-        "Explore my diverse portfolio of web development projects, showcasing expertise in Nuxt.js, .NET, C#, Blazor, OpenAI, and more.",
+        "Explore my diverse portfolio of web development projects, showcasing expertise in Nuxt.js, .NET, C#, Blazor, OpenAI, and more. From AI-powered applications to 3D web experiences and e-commerce platforms.",
     },
     {
       property: "og:url",
@@ -57,7 +57,7 @@ useHead({
     {
       property: "linkedin:description",
       content:
-        "Explore my diverse portfolio of web development projects, showcasing expertise in Nuxt.js, .NET, C#, Blazor, OpenAI, and more.",
+        "Explore my diverse portfolio of web development projects, showcasing expertise in Nuxt.js, .NET, C#, Blazor, OpenAI, and more. From AI-powered applications to 3D web experiences and e-commerce platforms.",
     },
     {
       property: "linkedin:url",
