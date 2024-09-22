@@ -10,20 +10,17 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
-    
+    "@nuxtjs/seo",
   ],
 
   tailwindcss: {
-    cssPath: '~/assets/style.css',
-  },
-  seo: {
-    redirectToCanonicalSiteUrl: true,
+    cssPath: "~/assets/style.css",
   },
 
   robots: {
-    UserAgent: '*',
-    Disallow: '',
-    Sitemap: 'https://www.aysegulk.me/sitemap.xml',
+    UserAgent: "*",
+    Disallow: "",
+    Sitemap: "https://www.aysegulk.me/sitemap.xml",
   },
 
   colorMode: {
@@ -32,8 +29,9 @@ export default defineNuxtConfig({
 
   site: {
     url: "https://aysegulk.me",
-    name: "Full-Stack Web Developer",
-    description: "Explore the portfolio of Aysegul Karadan, an experienced full-stack web developer specializing in Nuxt.js and Vue.js. Delivering high-quality web solutions with clean and efficient code.",
+    name: "Full-Stack Web Developer | Nuxt.js, Vue.js, Node.js, C#, .NET, Blazor",
+    description:
+      "Explore the portfolio of Aysegul Karadan, an experienced full-stack web developer specializing in Nuxt.js and Vue.js. Delivering high-quality web solutions with clean and efficient code.",
     defaultLocale: "en",
   },
 
@@ -55,12 +53,11 @@ export default defineNuxtConfig({
       title: "Aysegul Karadan - Web Developer",
 
       meta: [
-       
         {
           name: "google-site-verification",
           content: "sU5URavUHAVc-UpIThT55t6Zp-byECJN_U9MyTdcgL8",
         },
-       
+
         {
           name: "author",
           content: "Aysegul Karadan",
@@ -73,7 +70,6 @@ export default defineNuxtConfig({
           name: "robots",
           content: "index, follow",
         },
-       
 
         {
           name: "og:title",
@@ -82,8 +78,7 @@ export default defineNuxtConfig({
         },
         {
           name: "og:url",
-          content:
-            "www.aysegulk.me",
+          content: "www.aysegulk.me",
         },
         {
           name: "og:description",
