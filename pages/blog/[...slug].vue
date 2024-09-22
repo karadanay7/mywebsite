@@ -45,7 +45,8 @@
           <NuxtLink :to="post._path">
             <h3 class="text-lg">{{ post.title }}</h3>
             <p>{{ post.description }}</p>
-            <p>{{ formatDate(post.date) }}</p> <!-- Format date here -->
+            <p>{{ formatDate(post.date) }}</p>
+            <!-- Format date here -->
           </NuxtLink>
         </li>
       </ul>
@@ -54,27 +55,22 @@
 </template>
 
 <script setup>
-
-
 const { path } = useRoute();
-
 
 const { data: currentBlog } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne();
 });
 
-
 useHead({
-  title: currentBlog.value?.title || 'Blog',
   meta: [
-    ...currentBlog.value?.head.meta || [],
+    ...(currentBlog.value?.head.meta || []),
     {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1',
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
     },
     {
-      name: 'robots',
-      content: 'index, follow',
+      name: "robots",
+      content: "index, follow",
     },
   ],
 });

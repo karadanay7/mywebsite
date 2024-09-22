@@ -16,12 +16,11 @@
 </template>
 <script setup lang="ts">
 useHead({
-  title: "Projects | Aysegul Karadan - Full-Stack Developer",
   meta: [
     {
       name: "description",
       content:
-        "Explore my diverse portfolio of web development projects, showcasing expertise in Nuxt.js, .NET, C#, Blazor, OpenAI, and more. From e-commerce to AI-powered applications.",
+        "Explore my projects, showcasing expertise in Nuxt.js, .NET, C#, Blazor, OpenAI, and more. From e-commerce to AI-powered applications.",
     },
     {
       name: "keywords",
