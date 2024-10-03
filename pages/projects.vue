@@ -83,7 +83,7 @@ const projectsList = [
     viewUrl: "https://youtu.be/ZVQPObBMHS8",
     githubUrl: "https://github.com/karadanay7/MealMate-reactnative",
     description:
-      "MealMate is a mobile application that generates personalized 7-day meal plans using React Native, Expo, Tailwind CSS, and OpenAI, with secure user authentication via Firebase and Google Authentication",
+      "MealMate is a mobile application that generates personalized 7-day meal plans using React Native, Expo, Tailwind CSS, and OpenAI,  Firebase for OAuth , MongoDb",
   },
   {
     id: 2,
