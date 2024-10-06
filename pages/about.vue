@@ -166,7 +166,7 @@ const onLoad = (container: Container) => {
 
 const updateParticleNumber = () => {
   if (process.client) {
-    options.particles.number.value = window.innerWidth < 640 ? 50 : 100;
+    options.particles.number.value = window.innerWidth < 640 ? 100 : 50;
   }
 };
 
