@@ -64,7 +64,7 @@
     >
       <div class="shadow-lg rounded-lg w-full max-w-3xl">
         <h3 class="text-2xl md:text-3xl font-bold text-center">
-          What I have Build?
+          What I have Built?
         </h3>
         <ul class="text-lg list-disc list-inside">
           <li>
@@ -167,7 +167,7 @@ const onLoad = (container: Container) => {
 
 const updateParticleNumber = () => {
   if (process.client) {
-    options.particles.number.value = window.innerWidth < 640 ? 50 : 100;
+    options.particles.number.value = window.innerWidth < 640 ? 25 : 100;
   }
 };
 
