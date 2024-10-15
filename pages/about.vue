@@ -1,6 +1,7 @@
 <template>
   <NuxtParticles id="tsparticles" :options="options" @load="onLoad" />
   <div class="min-h-screen flex flex-col items-center justify-center">
+    <AboutThree />
     <div class="flex items-center justify-center gap-4">
       <img
         src="/ico-green.png"
